@@ -1,5 +1,7 @@
 # ERG Heatmap Streamlit app
 
+![App_screenshot](https://github.com/agiani99/ERG_Heatmap/blob/main/Screenshot.png)
+
 ## What it does
 
 - Upload a CSV (like `activity_CHEMBL202_ERG.csv`).
