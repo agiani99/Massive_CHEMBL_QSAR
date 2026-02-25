@@ -64,7 +64,7 @@ Notes:
 
 ### Targets CSV
 
-Provided via `--targets-csv` (default: `Uniprot_ID_with_only_Chembl_teil2.csv`).
+Provided via `--targets-csv` (default: `Uniprot_ID_with_only_Chembl.csv`).
 
 Required columns (names can vary; the script searches several candidates):
 - one of: `chembl_target_id`, `target_chembl_id`, `target_id`, `chembl_id`
