@@ -1,0 +1,584 @@
+TARGET ID,TARGET NAME,N_Molecules,MAP_METHOD,MAP_SCORE,MAP_SECOND_SCORE,MAP_MARGIN,chembl_target_id,uniprot_accession,Activity_Type,Model_Type,Model_Name,PKL_File,Algorithm,Metric_Column,Metric_Value,UNIPROT_ID
+D0001,Arachidonate 5-lipoxygenase,200,token_overlap,0.85,0.5,0.35,CHEMBL4550,P20292,Inhibition,Classification,CHEMBL4550_P20292_inhibition_cls_xgb,CHEMBL4550_P20292_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8157552083333334,P20292
+D0002,Diacylglycerol acyltransferase 1,200,token_overlap,0.8571428571428571,0.6666666666666666,0.19047619047619047,CHEMBL6009,O75907,,,,,,,,
+D0003,Caspase-1,200,exact,1.0,0.0,1.0,CHEMBL4801,P29466,Inhibition,Classification,CHEMBL4801_P29466_inhibition_cls_rf,CHEMBL4801_P29466_inhibition_cls_rf.pkl,rf,AUC_Score,0.937046004842615,P29466
+D0003,Caspase-1,200,exact,1.0,0.0,1.0,CHEMBL4801,P29466,Inhibition,Regression,CHEMBL4801_P29466_inhibition_reg_xgb,CHEMBL4801_P29466_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7797459381413726,P29466
+D0004,PAK-4 protein kinase,200,ambiguous,0.75,0.6666666666666666,0.08333333333333337,,,,,,,,,,
+D0005,Thymidylate synthase,200,exact,1.0,0.0,1.0,CHEMBL1952,P04818,Inhibition,Classification,CHEMBL1952_P04818_inhibition_cls_rf,CHEMBL1952_P04818_inhibition_cls_rf.pkl,rf,AUC_Score,0.874570938215103,P04818
+D0006,Aggrecanase,200,unmapped,0.0,0.0,0.0,,,,,,,,,,
+D0007,Presenilin 2,200,exact,1.0,0.0,1.0,CHEMBL3708,P49810,,,,,,,,
+D0008,MAP kinase signal-integrating kinase 2,200,ambiguous,0.6375,0.5454545454545454,0.09204545454545454,,,,,,,,,,
+D0009,Metabotropic glutamate receptor 5,200,exact,1.0,0.0,1.0,CHEMBL3227,P41594,Inhibition,Classification,CHEMBL3227_P41594_inhibition_cls_xgb,CHEMBL3227_P41594_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8875,P41594
+D0010,Gamma-secretase,200,token_overlap,0.85,0.6666666666666666,0.18333333333333335,CHEMBL3638343,A4D1B5,,,,,,,,
+D0011,Carbonic anhydrase XII,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0012,Dihydrofolate reductase,200,exact,1.0,0.0,1.0,CHEMBL202,P00374,Inhibition,Classification,CHEMBL202_P00374_inhibition_cls_rf,CHEMBL202_P00374_inhibition_cls_rf.pkl,rf,AUC_Score,0.8879310344827586,P00374
+D0013,Matrix metalloproteinase-8,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0014,Voltage-gated potassium channel Kv1.5,200,ambiguous,0.7692307692307693,0.7692307692307693,0.0,,,,,,,,,,
+D0015,Urokinase-type plasminogen activator,200,exact,1.0,0.0,1.0,CHEMBL3286,P00749,Inhibition,Classification,CHEMBL3286_P00749_inhibition_cls_xgb,CHEMBL3286_P00749_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9026037315511,P00749
+D0016,MEK kinase kinase 1,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0017,Fyn tyrosine protein kinase,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL1841,P06241,Inhibition,Classification,CHEMBL1841_P06241_inhibition_cls_xgb,CHEMBL1841_P06241_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8888888888888888,P06241
+D0018,Heat shock protein 90 alpha,200,token_overlap,0.8888888888888888,0.6666666666666666,0.2222222222222222,CHEMBL3880,P07900,Activation,Classification,CHEMBL3880_P07900_activation_cls_rf,CHEMBL3880_P07900_activation_cls_rf.pkl,rf,AUC_Score,0.90625,P07900
+D0018,Heat shock protein 90 alpha,200,token_overlap,0.8888888888888888,0.6666666666666666,0.2222222222222222,CHEMBL3880,P07900,Inhibition,Classification,CHEMBL3880_P07900_inhibition_cls_xgb,CHEMBL3880_P07900_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9278195488721804,P07900
+D0019,Melanin-concentrating hormone receptor 1,200,exact,1.0,0.0,1.0,CHEMBL344,Q99705,Activation,Classification,CHEMBL344_Q99705_activation_cls_rf,CHEMBL344_Q99705_activation_cls_rf.pkl,rf,AUC_Score,0.8,Q99705
+D0019,Melanin-concentrating hormone receptor 1,200,exact,1.0,0.0,1.0,CHEMBL344,Q99705,Inhibition,Classification,CHEMBL344_Q99705_inhibition_cls_rf,CHEMBL344_Q99705_inhibition_cls_rf.pkl,rf,AUC_Score,0.8861988132737528,Q99705
+D0020,S-mephenytoin 4-hydroxylase,200,ambiguous,0.5714285714285714,0.5,0.0714285714285714,,,,,,,,,,
+D0021,Phosphodiesterase 4B,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0022,Tumor necrosis factor,200,exact,1.0,0.0,1.0,CHEMBL1825,P01375,Inhibition,Classification,CHEMBL1825_P01375_inhibition_cls_xgb,CHEMBL1825_P01375_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9622950819672133,P01375
+D0022,Tumor necrosis factor,200,exact,1.0,0.0,1.0,CHEMBL1825,P01375,Inhibition,Regression,CHEMBL1825_P01375_inhibition_reg_xgb,CHEMBL1825_P01375_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7361162196967105,P01375
+D0023,Dopamine D3 receptor,200,ambiguous,0.5,0.4,0.09999999999999998,,,,,,,,,,
+D0024,Neuropeptide Y receptor type 2,200,exact,1.0,0.0,1.0,CHEMBL4018,P49146,Activation,Classification,CHEMBL4018_P49146_activation_cls_xgb,CHEMBL4018_P49146_activation_cls_xgb.pkl,xgb,AUC_Score,0.9947368421052633,P49146
+D0024,Neuropeptide Y receptor type 2,200,exact,1.0,0.0,1.0,CHEMBL4018,P49146,Inhibition,Classification,CHEMBL4018_P49146_inhibition_cls_rf,CHEMBL4018_P49146_inhibition_cls_rf.pkl,rf,AUC_Score,0.9635416666666666,P49146
+D0024,Neuropeptide Y receptor type 2,200,exact,1.0,0.0,1.0,CHEMBL4018,P49146,Activation,Regression,CHEMBL4018_P49146_activation_reg_rf,CHEMBL4018_P49146_activation_reg_rf.pkl,rf,R�_Score,0.89046554328538,P49146
+D0024,Neuropeptide Y receptor type 2,200,exact,1.0,0.0,1.0,CHEMBL4018,P49146,Inhibition,Regression,CHEMBL4018_P49146_inhibition_reg_xgb,CHEMBL4018_P49146_inhibition_reg_xgb.pkl,xgb,R�_Score,0.8398533688222843,P49146
+D0025,Voltage-gated potassium channel Kv11.1,200,ambiguous,0.8333333333333334,0.7692307692307693,0.0641025641025641,,,,,,,,,,
+D0026,Carbonic anhydrase II,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0027,Cyclin-dependent kinase 8,200,exact,1.0,0.0,1.0,CHEMBL5719,P49336,Activation,Classification,CHEMBL5719_P49336_activation_cls_rf,CHEMBL5719_P49336_activation_cls_rf.pkl,rf,AUC_Score,0.9125,P49336
+D0027,Cyclin-dependent kinase 8,200,exact,1.0,0.0,1.0,CHEMBL5719,P49336,Inhibition,Classification,CHEMBL5719_P49336_inhibition_cls_rf,CHEMBL5719_P49336_inhibition_cls_rf.pkl,rf,AUC_Score,0.8823529411764707,P49336
+D0028,Muscarinic acetylcholine receptor M4,200,exact,1.0,0.0,1.0,CHEMBL1821,P08173,Inhibition,Classification,CHEMBL1821_P08173_inhibition_cls_rf,CHEMBL1821_P08173_inhibition_cls_rf.pkl,rf,AUC_Score,0.8766763848396502,P08173
+D0029,Alpha-galactosidase A,200,exact,1.0,0.0,1.0,CHEMBL2524,P06280,,,,,,,,
+D0030,Norepinephrine transporter,200,ambiguous,0.4,0.4,0.0,,,,,,,,,,
+D0031,Cathepsin K,200,exact,1.0,0.0,1.0,CHEMBL268,P43235,Inhibition,Classification,CHEMBL268_P43235_inhibition_cls_xgb,CHEMBL268_P43235_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.805890909090909,P43235
+D0032,Toll-like receptor 9,200,exact,1.0,0.0,1.0,CHEMBL5804,Q9NR96,Inhibition,Classification,CHEMBL5804_Q9NR96_inhibition_cls_xgb,CHEMBL5804_Q9NR96_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8800042408821035,Q9NR96
+D0033,Dopamine D1 receptor,200,ambiguous,0.5,0.4,0.09999999999999998,,,,,,,,,,
+D0034,Glutamate receptor ionotropic NMDA 2A,200,exact,1.0,0.0,1.0,CHEMBL1972,Q12879,,,,,,,,
+D0035,Bacterial DNA gyrase,200,ambiguous,0.4,0.3333333333333333,0.06666666666666671,,,,,,,,,,
+D0036,Progesterone receptor,200,exact,1.0,0.0,1.0,CHEMBL208,P06401,Activation,Classification,CHEMBL208_P06401_activation_cls_rf,CHEMBL208_P06401_activation_cls_rf.pkl,rf,AUC_Score,0.9108527131782946,P06401
+D0036,Progesterone receptor,200,exact,1.0,0.0,1.0,CHEMBL208,P06401,Inhibition,Classification,CHEMBL208_P06401_inhibition_cls_xgb,CHEMBL208_P06401_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9264705882352942,P06401
+D0037,Janus kinase 3,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0038,Voltage-gated sodium channel alpha Nav1.7,200,token_overlap,0.7272727272727273,0.5714285714285714,0.1558441558441559,CHEMBL3585,Q01118,Inhibition,Classification,CHEMBL3585_Q01118_inhibition_cls_rf,CHEMBL3585_Q01118_inhibition_cls_rf.pkl,rf,AUC_Score,0.8333333333333333,Q01118
+D0038,Voltage-gated sodium channel alpha Nav1.7,200,token_overlap,0.7272727272727273,0.5714285714285714,0.1558441558441559,CHEMBL3585,Q01118,Inhibition,Regression,CHEMBL3585_Q01118_inhibition_reg_xgb,CHEMBL3585_Q01118_inhibition_reg_xgb.pkl,xgb,R�_Score,0.8487541586602413,Q01118
+D0039,G1/S-specific cyclin-D1,200,exact,1.0,0.0,1.0,CHEMBL3610,P24385,,,,,,,,
+D0040,Valosin-containing protein p97,200,unmapped,0.0,0.0,0.0,,,,,,,,,,
+D0041,Endothelin A receptor,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0042,Aryl hydrocarbon receptor,200,exact,1.0,0.0,1.0,CHEMBL3201,P35869,Activation,Classification,CHEMBL3201_P35869_activation_cls_rf,CHEMBL3201_P35869_activation_cls_rf.pkl,rf,AUC_Score,0.8633333333333333,P35869
+D0043,Protein-tyrosine phosphatase SHP-2,200,ambiguous,0.75,0.75,0.0,,,,,,,,,,
+D0044,B2 bradykinin receptor,200,exact,1.0,0.0,1.0,CHEMBL3157,P30411,Inhibition,Classification,CHEMBL3157_P30411_inhibition_cls_rf,CHEMBL3157_P30411_inhibition_cls_rf.pkl,rf,AUC_Score,0.9143589743589744,P30411
+D0044,B2 bradykinin receptor,200,exact,1.0,0.0,1.0,CHEMBL3157,P30411,Inhibition,Regression,CHEMBL3157_P30411_inhibition_reg_xgb,CHEMBL3157_P30411_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7732995948108597,P30411
+D0045,Casein kinase I alpha,200,ambiguous,1.0,1.0,0.0,,,,,,,,,,
+D0046,AP endonuclease 1,200,token_overlap,0.8,0.6666666666666666,0.13333333333333341,CHEMBL6066995,O94919,,,,,,,,
+D0047,Endoplasmic reticulum to nucleus signaling 1,200,ambiguous,0.6,0.6,0.0,,,,,,,,,,
+D0048,Oxysterols receptor LXR-beta,200,exact,1.0,0.0,1.0,CHEMBL4093,P55055,Activation,Classification,CHEMBL4093_P55055_activation_cls_rf,CHEMBL4093_P55055_activation_cls_rf.pkl,rf,AUC_Score,0.8297827903091062,P55055
+D0048,Oxysterols receptor LXR-beta,200,exact,1.0,0.0,1.0,CHEMBL4093,P55055,Inhibition,Classification,CHEMBL4093_P55055_inhibition_cls_rf,CHEMBL4093_P55055_inhibition_cls_rf.pkl,rf,AUC_Score,0.8027597402597402,P55055
+D0049,Dopamine D4 receptor,200,ambiguous,0.4,0.4,0.0,,,,,,,,,,
+D0050,Tyrosine-protein kinase BTK,200,exact,1.0,0.0,1.0,CHEMBL5251,Q06187,Inhibition,Classification,CHEMBL5251_Q06187_inhibition_cls_xgb,CHEMBL5251_Q06187_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.90276319190214,Q06187
+D0051,Multidrug resistance protein 1,200,token_overlap,0.8571428571428571,0.6666666666666666,0.19047619047619047,CHEMBL3004,P33527,Activation,Classification,CHEMBL3004_P33527_activation_cls_rf,CHEMBL3004_P33527_activation_cls_rf.pkl,rf,AUC_Score,0.976851851851852,P33527
+D0051,Multidrug resistance protein 1,200,token_overlap,0.8571428571428571,0.6666666666666666,0.19047619047619047,CHEMBL3004,P33527,Inhibition,Classification,CHEMBL3004_P33527_inhibition_cls_rf,CHEMBL3004_P33527_inhibition_cls_rf.pkl,rf,AUC_Score,1.0,P33527
+D0051,Multidrug resistance protein 1,200,token_overlap,0.8571428571428571,0.6666666666666666,0.19047619047619047,CHEMBL3004,P33527,Activation,Regression,CHEMBL3004_P33527_activation_reg_xgb,CHEMBL3004_P33527_activation_reg_xgb.pkl,xgb,R�_Score,0.7950449150895664,P33527
+D0051,Multidrug resistance protein 1,200,token_overlap,0.8571428571428571,0.6666666666666666,0.19047619047619047,CHEMBL3004,P33527,Inhibition,Regression,CHEMBL3004_P33527_inhibition_reg_rf,CHEMBL3004_P33527_inhibition_reg_rf.pkl,rf,R�_Score,0.758582659194652,P33527
+D0052,Sterol O-acyltransferase,200,ambiguous,0.8571428571428571,0.8571428571428571,0.0,,,,,,,,,,
+D0053,NAD-dependent deacetylase sirtuin-1,200,token_overlap,1.0,0.8,0.19999999999999996,CHEMBL4506,Q96EB6,Inhibition,Classification,CHEMBL4506_Q96EB6_inhibition_cls_rf,CHEMBL4506_Q96EB6_inhibition_cls_rf.pkl,rf,AUC_Score,0.881868131868132,Q96EB6
+D0054,Aldose reductase,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0055,Induced myeloid leukemia cell differentiation protein Mcl-1,200,exact,1.0,0.0,1.0,CHEMBL4361,Q07820,Inhibition,Classification,CHEMBL4361_Q07820_inhibition_cls_xgb,CHEMBL4361_Q07820_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9506494677972216,Q07820
+D0055,Induced myeloid leukemia cell differentiation protein Mcl-1,200,exact,1.0,0.0,1.0,CHEMBL4361,Q07820,Inhibition,Regression,CHEMBL4361_Q07820_inhibition_reg_xgb,CHEMBL4361_Q07820_inhibition_reg_xgb.pkl,xgb,R�_Score,0.8792303478122834,Q07820
+D0056,Focal adhesion kinase 1,200,exact,1.0,0.0,1.0,CHEMBL2695,Q05397,Inhibition,Classification,CHEMBL2695_Q05397_inhibition_cls_rf,CHEMBL2695_Q05397_inhibition_cls_rf.pkl,rf,AUC_Score,0.9377530364372472,Q05397
+D0056,Focal adhesion kinase 1,200,exact,1.0,0.0,1.0,CHEMBL2695,Q05397,Inhibition,Regression,CHEMBL2695_Q05397_inhibition_reg_rf,CHEMBL2695_Q05397_inhibition_reg_rf.pkl,rf,R�_Score,0.8262428866977447,Q05397
+D0057,Cationic trypsinogen,200,ambiguous,0.2857142857142857,0.2222222222222222,0.06349206349206349,,,,,,,,,,
+D0058,Cholesteryl ester transfer protein,200,exact,1.0,0.0,1.0,CHEMBL3572,P11597,Inhibition,Classification,CHEMBL3572_P11597_inhibition_cls_xgb,CHEMBL3572_P11597_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9077451190731604,P11597
+D0059,Serotonin transporter,200,token_overlap,0.6666666666666666,0.4,0.2666666666666666,CHEMBL228,P31645,Inhibition,Classification,CHEMBL228_P31645_inhibition_cls_rf,CHEMBL228_P31645_inhibition_cls_rf.pkl,rf,AUC_Score,0.9829059829059827,P31645
+D0060,Beta-site APP-cleaving enzyme 2,200,ambiguous,0.4444444444444444,0.4444444444444444,0.0,,,,,,,,,,
+D0061,Tubulin beta-2 chain,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0062,GABA A receptor gamma-3,200,ambiguous,0.5714285714285714,0.5714285714285714,0.0,,,,,,,,,,
+D0063,Muscarinic acetylcholine receptor M1,200,exact,1.0,0.0,1.0,CHEMBL216,P11229,Activation,Classification,CHEMBL216_P11229_activation_cls_xgb,CHEMBL216_P11229_activation_cls_xgb.pkl,xgb,AUC_Score,0.84375,P11229
+D0063,Muscarinic acetylcholine receptor M1,200,exact,1.0,0.0,1.0,CHEMBL216,P11229,Inhibition,Classification,CHEMBL216_P11229_inhibition_cls_rf,CHEMBL216_P11229_inhibition_cls_rf.pkl,rf,AUC_Score,0.87664697864607,P11229
+D0064,Signal transducer and activator of transcription 3,200,exact,1.0,0.0,1.0,CHEMBL4026,P40763,Inhibition,Classification,CHEMBL4026_P40763_inhibition_cls_rf,CHEMBL4026_P40763_inhibition_cls_rf.pkl,rf,AUC_Score,0.8788402457757296,P40763
+D0065,Pyruvate dehydrogenase kinase 1,200,ambiguous,0.6666666666666666,0.5714285714285714,0.09523809523809523,,,,,,,,,,
+D0066,Adrenergic receptor alpha-1B,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL232,P35368,Activation,Classification,CHEMBL232_P35368_activation_cls_rf,CHEMBL232_P35368_activation_cls_rf.pkl,rf,AUC_Score,0.9166666666666666,P35368
+D0066,Adrenergic receptor alpha-1B,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL232,P35368,Inhibition,Classification,CHEMBL232_P35368_inhibition_cls_xgb,CHEMBL232_P35368_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8967343336275375,P35368
+D0067,Dipeptidyl peptidase 8,200,exact,1.0,0.0,1.0,CHEMBL4657,Q6V1X1,Inhibition,Classification,CHEMBL4657_Q6V1X1_inhibition_cls_xgb,CHEMBL4657_Q6V1X1_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9287918871252204,Q6V1X1
+D0068,Acetylcholinesterase,200,exact,1.0,0.0,1.0,CHEMBL220,P22303,Inhibition,Classification,CHEMBL220_P22303_inhibition_cls_rf,CHEMBL220_P22303_inhibition_cls_rf.pkl,rf,AUC_Score,0.8763768686073957,P22303
+D0069,Sodium/glucose cotransporter 2,200,exact,1.0,0.0,1.0,CHEMBL3884,P31639,Inhibition,Classification,CHEMBL3884_P31639_inhibition_cls_rf,CHEMBL3884_P31639_inhibition_cls_rf.pkl,rf,AUC_Score,0.8385701275045536,P31639
+D0070,C-C chemokine receptor type 1,200,exact,1.0,0.0,1.0,CHEMBL2413,P32246,Inhibition,Classification,CHEMBL2413_P32246_inhibition_cls_rf,CHEMBL2413_P32246_inhibition_cls_rf.pkl,rf,AUC_Score,0.9330886504799548,P32246
+D0071,Trypanosoma Cruzipain,200,unmapped,0.0,0.0,0.0,,,,,,,,,,
+D0072,Nitric-oxide synthase brain,200,ambiguous,0.75,0.75,0.0,,,,,,,,,,
+D0073,Leukotriene A-4 hydrolase,200,exact,1.0,0.0,1.0,CHEMBL4618,P09960,Inhibition,Classification,CHEMBL4618_P09960_inhibition_cls_rf,CHEMBL4618_P09960_inhibition_cls_rf.pkl,rf,AUC_Score,0.8698994677705498,P09960
+D0074,Histamine H2 receptor,200,exact,1.0,0.0,1.0,CHEMBL1941,P25021,Activation,Classification,CHEMBL1941_P25021_activation_cls_rf,CHEMBL1941_P25021_activation_cls_rf.pkl,rf,AUC_Score,0.96,P25021
+D0074,Histamine H2 receptor,200,exact,1.0,0.0,1.0,CHEMBL1941,P25021,Inhibition,Classification,CHEMBL1941_P25021_inhibition_cls_rf,CHEMBL1941_P25021_inhibition_cls_rf.pkl,rf,AUC_Score,0.9085497835497836,P25021
+D0074,Histamine H2 receptor,200,exact,1.0,0.0,1.0,CHEMBL1941,P25021,Activation,Regression,CHEMBL1941_P25021_activation_reg_xgb,CHEMBL1941_P25021_activation_reg_xgb.pkl,xgb,R�_Score,0.7130758547573905,P25021
+D0075,Rotamase Pin1,200,unmapped,0.0,0.0,0.0,,,,,,,,,,
+D0076,5-HT 2B receptor,200,token_overlap,0.6666666666666666,0.4,0.2666666666666666,CHEMBL1833,P41595,Inhibition,Classification,CHEMBL1833_P41595_inhibition_cls_xgb,CHEMBL1833_P41595_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8326587795765877,P41595
+D0077,Protein-tyrosine phosphatase 1B,200,token_overlap,0.8,0.6666666666666666,0.13333333333333341,CHEMBL2845,O75688,,,,,,,,
+D0078,Apoptosis regulator Bcl-2,200,exact,1.0,0.0,1.0,CHEMBL4860,P10415,Inhibition,Classification,CHEMBL4860_P10415_inhibition_cls_xgb,CHEMBL4860_P10415_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9555290847726822,P10415
+D0078,Apoptosis regulator Bcl-2,200,exact,1.0,0.0,1.0,CHEMBL4860,P10415,Inhibition,Regression,CHEMBL4860_P10415_inhibition_reg_rf,CHEMBL4860_P10415_inhibition_reg_rf.pkl,rf,R�_Score,0.8090299348711059,P10415
+D0079,Dipeptidyl peptidase 4,200,exact,1.0,0.0,1.0,CHEMBL284,P27487,Inhibition,Classification,CHEMBL284_P27487_inhibition_cls_xgb,CHEMBL284_P27487_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.831924046877318,P27487
+D0080,Phospholipase A2,200,exact,1.0,0.0,1.0,CHEMBL4426,P04054,Inhibition,Classification,CHEMBL4426_P04054_inhibition_cls_rf,CHEMBL4426_P04054_inhibition_cls_rf.pkl,rf,AUC_Score,0.9861111111111112,P04054
+D0081,5-HT 6 receptor,200,token_overlap,0.6666666666666666,0.4,0.2666666666666666,CHEMBL3371,P50406,Inhibition,Classification,CHEMBL3371_P50406_inhibition_cls_rf,CHEMBL3371_P50406_inhibition_cls_rf.pkl,rf,AUC_Score,0.93947308653191,P50406
+D0082,Lysine-specific histone demethylase 1,200,ambiguous,0.8,0.8,0.0,,,,,,,,,,
+D0083,X-linked inhibitor of apoptosis protein,200,ambiguous,0.5,0.4444444444444444,0.05555555555555558,,,,,,,,,,
+D0084,Protein arginine methyltransferase 1,200,token_overlap,0.8571428571428571,0.6666666666666666,0.19047619047619047,CHEMBL5524,Q99873,Inhibition,Classification,CHEMBL5524_Q99873_inhibition_cls_rf,CHEMBL5524_Q99873_inhibition_cls_rf.pkl,rf,AUC_Score,0.9986293859649122,Q99873
+D0084,Protein arginine methyltransferase 1,200,token_overlap,0.8571428571428571,0.6666666666666666,0.19047619047619047,CHEMBL5524,Q99873,Inhibition,Regression,CHEMBL5524_Q99873_inhibition_reg_xgb,CHEMBL5524_Q99873_inhibition_reg_xgb.pkl,xgb,R�_Score,0.8420991489212,Q99873
+D0085,Carbonic anhydrase XIV,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0086,5-HT 2A receptor,200,token_overlap,0.6666666666666666,0.4,0.2666666666666666,CHEMBL224,P28223,Inhibition,Classification,CHEMBL224_P28223_inhibition_cls_rf,CHEMBL224_P28223_inhibition_cls_rf.pkl,rf,AUC_Score,0.8580628087508821,P28223
+D0087,DNA topoisomerase II alpha,200,token_overlap,0.75,0.5714285714285714,0.1785714285714286,CHEMBL1806,P11388,,,,,,,,
+D0088,Menin-MLL1 interaction,200,ambiguous,0.5,0.0,0.5,,,,,,,,,,
+D0089,Steryl-sulfatase,200,exact,1.0,0.0,1.0,CHEMBL3559,P08842,Inhibition,Classification,CHEMBL3559_P08842_inhibition_cls_rf,CHEMBL3559_P08842_inhibition_cls_rf.pkl,rf,AUC_Score,0.8890224358974359,P08842
+D0090,Vitamin D3 receptor,200,exact,1.0,0.0,1.0,CHEMBL1977,P11473,Activation,Classification,CHEMBL1977_P11473_activation_cls_rf,CHEMBL1977_P11473_activation_cls_rf.pkl,rf,AUC_Score,0.8095238095238095,P11473
+D0090,Vitamin D3 receptor,200,exact,1.0,0.0,1.0,CHEMBL1977,P11473,Inhibition,Classification,CHEMBL1977_P11473_inhibition_cls_rf,CHEMBL1977_P11473_inhibition_cls_rf.pkl,rf,AUC_Score,1.0,P11473
+D0090,Vitamin D3 receptor,200,exact,1.0,0.0,1.0,CHEMBL1977,P11473,Inhibition,Regression,CHEMBL1977_P11473_inhibition_reg_rf,CHEMBL1977_P11473_inhibition_reg_rf.pkl,rf,R�_Score,0.8711710257042824,P11473
+D0091,Neuronal acetylcholine receptor alpha-7,200,token_overlap,1.0,0.75,0.25,CHEMBL2492,P36544,Activation,Classification,CHEMBL2492_P36544_activation_cls_xgb,CHEMBL2492_P36544_activation_cls_xgb.pkl,xgb,AUC_Score,0.9585798816568049,P36544
+D0091,Neuronal acetylcholine receptor alpha-7,200,token_overlap,1.0,0.75,0.25,CHEMBL2492,P36544,Inhibition,Classification,CHEMBL2492_P36544_inhibition_cls_xgb,CHEMBL2492_P36544_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9522311212814646,P36544
+D0092,Monoglyceride lipase,200,exact,1.0,0.0,1.0,CHEMBL4191,Q99685,Inhibition,Classification,CHEMBL4191_Q99685_inhibition_cls_xgb,CHEMBL4191_Q99685_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.937110535902598,Q99685
+D0092,Monoglyceride lipase,200,exact,1.0,0.0,1.0,CHEMBL4191,Q99685,Inhibition,Regression,CHEMBL4191_Q99685_inhibition_reg_xgb,CHEMBL4191_Q99685_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7067528864029484,Q99685
+D0093,Prostaglandin E2 receptor EP4,200,token_overlap,0.8571428571428571,0.5714285714285714,0.2857142857142857,CHEMBL1836,P35408,Activation,Classification,CHEMBL1836_P35408_activation_cls_rf,CHEMBL1836_P35408_activation_cls_rf.pkl,rf,AUC_Score,0.9215686274509804,P35408
+D0093,Prostaglandin E2 receptor EP4,200,token_overlap,0.8571428571428571,0.5714285714285714,0.2857142857142857,CHEMBL1836,P35408,Inhibition,Classification,CHEMBL1836_P35408_inhibition_cls_rf,CHEMBL1836_P35408_inhibition_cls_rf.pkl,rf,AUC_Score,1.0,P35408
+D0093,Prostaglandin E2 receptor EP4,200,token_overlap,0.8571428571428571,0.5714285714285714,0.2857142857142857,CHEMBL1836,P35408,Inhibition,Regression,CHEMBL1836_P35408_inhibition_reg_rf,CHEMBL1836_P35408_inhibition_reg_rf.pkl,rf,R�_Score,0.7424100335290869,P35408
+D0094,Group IIA phospholipase A2,200,ambiguous,0.75,0.6666666666666666,0.08333333333333337,,,,,,,,,,
+D0095,Integrin alpha-L,200,exact,1.0,0.0,1.0,CHEMBL1803,P20701,Inhibition,Classification,CHEMBL1803_P20701_inhibition_cls_xgb,CHEMBL1803_P20701_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8461538461538461,P20701
+D0096,Melanocortin receptor 1,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0097,Proteinase activated receptor 1,200,exact,1.0,0.0,1.0,CHEMBL3974,P25116,Activation,Classification,CHEMBL3974_P25116_activation_cls_rf,CHEMBL3974_P25116_activation_cls_rf.pkl,rf,AUC_Score,0.9555555555555556,P25116
+D0097,Proteinase activated receptor 1,200,exact,1.0,0.0,1.0,CHEMBL3974,P25116,Inhibition,Classification,CHEMBL3974_P25116_inhibition_cls_xgb,CHEMBL3974_P25116_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8506604696673189,P25116
+D0098,Cannabinoid receptor 2,200,exact,1.0,0.0,1.0,CHEMBL253,P34972,Activation,Classification,CHEMBL253_P34972_activation_cls_rf,CHEMBL253_P34972_activation_cls_rf.pkl,rf,AUC_Score,0.875,P34972
+D0098,Cannabinoid receptor 2,200,exact,1.0,0.0,1.0,CHEMBL253,P34972,Inhibition,Classification,CHEMBL253_P34972_inhibition_cls_xgb,CHEMBL253_P34972_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8843795093795094,P34972
+D0099,Phosphoinositide dependent protein kinase-1,200,token_overlap,0.8888888888888888,0.75,0.13888888888888884,CHEMBL2534,O15530,Inhibition,Classification,CHEMBL2534_O15530_inhibition_cls_rf,CHEMBL2534_O15530_inhibition_cls_rf.pkl,rf,AUC_Score,0.8784682412290759,O15530
+D0100,Hypoxia-inducible factor 2 alpha,200,ambiguous,0.8,0.7272727272727273,0.07272727272727275,,,,,,,,,,
+D0101,MAPK-activated protein kinase 2,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0102,Voltage-gated calcium channel alpha Cav2.2,200,ambiguous,0.7142857142857143,0.6666666666666666,0.04761904761904767,,,,,,,,,,
+D0103,Prostaglandin E2 receptor EP2,200,token_overlap,0.8571428571428571,0.5714285714285714,0.2857142857142857,CHEMBL1881,P43116,Activation,Classification,CHEMBL1881_P43116_activation_cls_rf,CHEMBL1881_P43116_activation_cls_rf.pkl,rf,AUC_Score,1.0,P43116
+D0103,Prostaglandin E2 receptor EP2,200,token_overlap,0.8571428571428571,0.5714285714285714,0.2857142857142857,CHEMBL1881,P43116,Inhibition,Classification,CHEMBL1881_P43116_inhibition_cls_rf,CHEMBL1881_P43116_inhibition_cls_rf.pkl,rf,AUC_Score,0.8826058201058201,P43116
+D0103,Prostaglandin E2 receptor EP2,200,token_overlap,0.8571428571428571,0.5714285714285714,0.2857142857142857,CHEMBL1881,P43116,Activation,Regression,CHEMBL1881_P43116_activation_reg_rf,CHEMBL1881_P43116_activation_reg_rf.pkl,rf,R�_Score,0.775380916765863,P43116
+D0103,Prostaglandin E2 receptor EP2,200,token_overlap,0.8571428571428571,0.5714285714285714,0.2857142857142857,CHEMBL1881,P43116,Inhibition,Regression,CHEMBL1881_P43116_inhibition_reg_xgb,CHEMBL1881_P43116_inhibition_reg_xgb.pkl,xgb,R�_Score,0.789524618113468,P43116
+D0104,Voltage-gated sodium channel alpha Nav1.5,200,token_overlap,0.7272727272727273,0.5714285714285714,0.1558441558441559,CHEMBL1980,Q14524,Inhibition,Classification,CHEMBL1980_Q14524_inhibition_cls_rf,CHEMBL1980_Q14524_inhibition_cls_rf.pkl,rf,AUC_Score,0.9350649350649348,Q14524
+D0104,Voltage-gated sodium channel alpha Nav1.5,200,token_overlap,0.7272727272727273,0.5714285714285714,0.1558441558441559,CHEMBL1980,Q14524,Inhibition,Regression,CHEMBL1980_Q14524_inhibition_reg_rf,CHEMBL1980_Q14524_inhibition_reg_rf.pkl,rf,R�_Score,0.7265383593470903,Q14524
+D0105,Glucocorticoid receptor,200,exact,1.0,0.0,1.0,CHEMBL2034,P04150,Activation,Classification,CHEMBL2034_P04150_activation_cls_rf,CHEMBL2034_P04150_activation_cls_rf.pkl,rf,AUC_Score,0.8235294117647058,P04150
+D0105,Glucocorticoid receptor,200,exact,1.0,0.0,1.0,CHEMBL2034,P04150,Inhibition,Classification,CHEMBL2034_P04150_inhibition_cls_rf,CHEMBL2034_P04150_inhibition_cls_rf.pkl,rf,AUC_Score,0.8701923076923077,P04150
+D0106,Proto-oncogene c-Met,200,token_overlap,0.75,0.5714285714285714,0.1785714285714286,CHEMBL4296310,Q04864,,,,,,,,
+D0107,Histone deacetylase 6,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL1865,Q9UBN7,Activation,Classification,CHEMBL1865_Q9UBN7_activation_cls_rf,CHEMBL1865_Q9UBN7_activation_cls_rf.pkl,rf,AUC_Score,0.937888198757764,Q9UBN7
+D0107,Histone deacetylase 6,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL1865,Q9UBN7,Inhibition,Classification,CHEMBL1865_Q9UBN7_inhibition_cls_xgb,CHEMBL1865_Q9UBN7_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9042393107472806,Q9UBN7
+D0108,Gastrin/cholecystokinin type B receptor,200,exact,1.0,0.0,1.0,CHEMBL298,P32239,Inhibition,Classification,CHEMBL298_P32239_inhibition_cls_rf,CHEMBL298_P32239_inhibition_cls_rf.pkl,rf,AUC_Score,0.9285714285714286,P32239
+D0108,Gastrin/cholecystokinin type B receptor,200,exact,1.0,0.0,1.0,CHEMBL298,P32239,Inhibition,Regression,CHEMBL298_P32239_inhibition_reg_xgb,CHEMBL298_P32239_inhibition_reg_xgb.pkl,xgb,R�_Score,0.9151230210219484,P32239
+D0109,Xanthine dehydrogenase/oxidase,200,exact,1.0,0.0,1.0,CHEMBL1929,P47989,Inhibition,Classification,CHEMBL1929_P47989_inhibition_cls_rf,CHEMBL1929_P47989_inhibition_cls_rf.pkl,rf,AUC_Score,0.9036323202372128,P47989
+D0109,Xanthine dehydrogenase/oxidase,200,exact,1.0,0.0,1.0,CHEMBL1929,P47989,Inhibition,Regression,CHEMBL1929_P47989_inhibition_reg_xgb,CHEMBL1929_P47989_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7618671778828163,P47989
+D0110,Adrenergic receptor alpha-2B,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL1942,P18089,Activation,Classification,CHEMBL1942_P18089_activation_cls_xgb,CHEMBL1942_P18089_activation_cls_xgb.pkl,xgb,AUC_Score,0.8641975308641976,P18089
+D0110,Adrenergic receptor alpha-2B,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL1942,P18089,Inhibition,Classification,CHEMBL1942_P18089_inhibition_cls_rf,CHEMBL1942_P18089_inhibition_cls_rf.pkl,rf,AUC_Score,0.9357864357864356,P18089
+D0111,Glutamate receptor AMPA 2,200,token_overlap,0.8,0.6666666666666666,0.13333333333333341,CHEMBL4016,P42262,Inhibition,Classification,CHEMBL4016_P42262_inhibition_cls_rf,CHEMBL4016_P42262_inhibition_cls_rf.pkl,rf,AUC_Score,0.925925925925926,P42262
+D0111,Glutamate receptor AMPA 2,200,token_overlap,0.8,0.6666666666666666,0.13333333333333341,CHEMBL4016,P42262,Inhibition,Regression,CHEMBL4016_P42262_inhibition_reg_rf,CHEMBL4016_P42262_inhibition_reg_rf.pkl,rf,R�_Score,0.7748824190177314,P42262
+D0112,Coagulation factor VII,200,exact,1.0,0.0,1.0,CHEMBL3991,P08709,Inhibition,Classification,CHEMBL3991_P08709_inhibition_cls_rf,CHEMBL3991_P08709_inhibition_cls_rf.pkl,rf,AUC_Score,0.876750700280112,P08709
+D0113,Voltage-gated sodium channel alpha Nav1.8,200,token_overlap,0.7272727272727273,0.5454545454545454,0.18181818181818188,CHEMBL5202,Q9UQD0,Inhibition,Classification,CHEMBL5202_Q9UQD0_inhibition_cls_rf,CHEMBL5202_Q9UQD0_inhibition_cls_rf.pkl,rf,AUC_Score,0.8166996937488741,Q9UQD0
+D0114,Adrenergic receptor beta-1,200,token_overlap,1.0,0.8571428571428571,0.1428571428571429,CHEMBL213,P08588,Inhibition,Classification,CHEMBL213_P08588_inhibition_cls_xgb,CHEMBL213_P08588_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8709563994374121,P08588
+D0115,Tissue-type plasminogen activator,200,exact,1.0,0.0,1.0,CHEMBL1873,P00750,Inhibition,Classification,CHEMBL1873_P00750_inhibition_cls_rf,CHEMBL1873_P00750_inhibition_cls_rf.pkl,rf,AUC_Score,0.9868131868131867,P00750
+D0115,Tissue-type plasminogen activator,200,exact,1.0,0.0,1.0,CHEMBL1873,P00750,Inhibition,Regression,CHEMBL1873_P00750_inhibition_reg_rf,CHEMBL1873_P00750_inhibition_reg_rf.pkl,rf,R�_Score,0.8578522430542926,P00750
+D0116,Proto-oncogene c-RAF,200,token_overlap,0.75,0.6,0.15000000000000002,CHEMBL4296310,Q04864,,,,,,,,
+D0117,Muscarinic acetylcholine receptor M2,200,exact,1.0,0.0,1.0,CHEMBL211,P08172,Activation,Classification,CHEMBL211_P08172_activation_cls_rf,CHEMBL211_P08172_activation_cls_rf.pkl,rf,AUC_Score,0.861111111111111,P08172
+D0117,Muscarinic acetylcholine receptor M2,200,exact,1.0,0.0,1.0,CHEMBL211,P08172,Inhibition,Classification,CHEMBL211_P08172_inhibition_cls_xgb,CHEMBL211_P08172_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8600697471665213,P08172
+D0118,Opioid receptor sigma 1,200,token_overlap,0.75,0.5714285714285714,0.1785714285714286,CHEMBL287,Q99720,Inhibition,Classification,CHEMBL287_Q99720_inhibition_cls_rf,CHEMBL287_Q99720_inhibition_cls_rf.pkl,rf,AUC_Score,0.8935413395234518,Q99720
+D0119,Poly [ADP-ribose] polymerase 1,200,exact,1.0,0.0,1.0,CHEMBL3105,P09874,Activation,Classification,CHEMBL3105_P09874_activation_cls_xgb,CHEMBL3105_P09874_activation_cls_xgb.pkl,xgb,AUC_Score,0.923611111111111,P09874
+D0119,Poly [ADP-ribose] polymerase 1,200,exact,1.0,0.0,1.0,CHEMBL3105,P09874,Inhibition,Classification,CHEMBL3105_P09874_inhibition_cls_xgb,CHEMBL3105_P09874_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8713727678571429,P09874
+D0120,Toll-like receptor 7,200,exact,1.0,0.0,1.0,CHEMBL5936,Q9NYK1,Activation,Classification,CHEMBL5936_Q9NYK1_activation_cls_xgb,CHEMBL5936_Q9NYK1_activation_cls_xgb.pkl,xgb,AUC_Score,0.8715118976602373,Q9NYK1
+D0120,Toll-like receptor 7,200,exact,1.0,0.0,1.0,CHEMBL5936,Q9NYK1,Inhibition,Classification,CHEMBL5936_Q9NYK1_inhibition_cls_xgb,CHEMBL5936_Q9NYK1_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9497234791352438,Q9NYK1
+D0120,Toll-like receptor 7,200,exact,1.0,0.0,1.0,CHEMBL5936,Q9NYK1,Activation,Regression,CHEMBL5936_Q9NYK1_activation_reg_xgb,CHEMBL5936_Q9NYK1_activation_reg_xgb.pkl,xgb,R�_Score,0.7882268790066053,Q9NYK1
+D0120,Toll-like receptor 7,200,exact,1.0,0.0,1.0,CHEMBL5936,Q9NYK1,Inhibition,Regression,CHEMBL5936_Q9NYK1_inhibition_reg_xgb,CHEMBL5936_Q9NYK1_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7663816178872697,Q9NYK1
+D0121,Protein kinase C theta,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL3920,Q04759,Inhibition,Classification,CHEMBL3920_Q04759_inhibition_cls_rf,CHEMBL3920_Q04759_inhibition_cls_rf.pkl,rf,AUC_Score,0.8933333333333333,Q04759
+D0122,P2Y purinoceptor 12,200,exact,1.0,0.0,1.0,CHEMBL2001,Q9H244,Inhibition,Classification,CHEMBL2001_Q9H244_inhibition_cls_xgb,CHEMBL2001_Q9H244_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9427891156462584,Q9H244
+D0123,Rotamase A,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0124,Voltage-gated calcium channel alpha Cav1.3,200,ambiguous,0.5714285714285714,0.5714285714285714,0.0,,,,,,,,,,
+D0125,Fibroblast growth factor receptor 1,200,exact,1.0,0.0,1.0,CHEMBL3650,P11362,Inhibition,Classification,CHEMBL3650_P11362_inhibition_cls_rf,CHEMBL3650_P11362_inhibition_cls_rf.pkl,rf,AUC_Score,0.8835164835164835,P11362
+D0126,Ileal sodium/bile acid cotransporter,200,exact,1.0,0.0,1.0,CHEMBL2778,Q12908,Inhibition,Classification,CHEMBL2778_Q12908_inhibition_cls_rf,CHEMBL2778_Q12908_inhibition_cls_rf.pkl,rf,AUC_Score,0.9130434782608696,Q12908
+D0127,Nuclear receptor ROR-gamma,200,exact,1.0,0.0,1.0,CHEMBL1741186,P51449,Activation,Classification,CHEMBL1741186_P51449_activation_cls_xgb,CHEMBL1741186_P51449_activation_cls_xgb.pkl,xgb,AUC_Score,0.8483267661912426,P51449
+D0127,Nuclear receptor ROR-gamma,200,exact,1.0,0.0,1.0,CHEMBL1741186,P51449,Inhibition,Classification,CHEMBL1741186_P51449_inhibition_cls_xgb,CHEMBL1741186_P51449_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8654504225226676,P51449
+D0128,Free fatty acid receptor 1,200,exact,1.0,0.0,1.0,CHEMBL4422,O14842,Activation,Classification,CHEMBL4422_O14842_activation_cls_rf,CHEMBL4422_O14842_activation_cls_rf.pkl,rf,AUC_Score,0.8469281045751634,O14842
+D0128,Free fatty acid receptor 1,200,exact,1.0,0.0,1.0,CHEMBL4422,O14842,Inhibition,Classification,CHEMBL4422_O14842_inhibition_cls_xgb,CHEMBL4422_O14842_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8857142857142857,O14842
+D0128,Free fatty acid receptor 1,200,exact,1.0,0.0,1.0,CHEMBL4422,O14842,Inhibition,Regression,CHEMBL4422_O14842_inhibition_reg_xgb,CHEMBL4422_O14842_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7842452399689013,O14842
+D0129,Opioid receptor mu,200,token_overlap,1.0,0.5,0.5,CHEMBL233,P35372,Inhibition,Classification,CHEMBL233_P35372_inhibition_cls_xgb,CHEMBL233_P35372_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9311896579937816,P35372
+D0130,Insulin-like growth factor I receptor,200,token_overlap,1.0,0.75,0.25,CHEMBL3217394,P05019,,,,,,,,
+D0131,RAC-beta serine/threonine-protein kinase,200,exact,1.0,0.0,1.0,CHEMBL2431,P31751,Inhibition,Classification,CHEMBL2431_P31751_inhibition_cls_rf,CHEMBL2431_P31751_inhibition_cls_rf.pkl,rf,AUC_Score,0.8640186915887851,P31751
+D0132,Histone acetyltransferase p300,200,exact,1.0,0.0,1.0,CHEMBL3784,Q09472,Activation,Classification,CHEMBL3784_Q09472_activation_cls_rf,CHEMBL3784_Q09472_activation_cls_rf.pkl,rf,AUC_Score,0.8611111111111112,Q09472
+D0132,Histone acetyltransferase p300,200,exact,1.0,0.0,1.0,CHEMBL3784,Q09472,Inhibition,Classification,CHEMBL3784_Q09472_inhibition_cls_rf,CHEMBL3784_Q09472_inhibition_cls_rf.pkl,rf,AUC_Score,0.8698392003476749,Q09472
+D0133,Cytochrome P450 2A6,200,exact,1.0,0.0,1.0,CHEMBL5282,P11509,,,,,,,,
+D0134,Glycoprotein IIb/IIIa receptor,200,ambiguous,0.4,0.4,0.0,,,,,,,,,,
+D0135,Histamine H4 receptor,200,exact,1.0,0.0,1.0,CHEMBL3759,Q9H3N8,Activation,Classification,CHEMBL3759_Q9H3N8_activation_cls_rf,CHEMBL3759_Q9H3N8_activation_cls_rf.pkl,rf,AUC_Score,0.9298245614035088,Q9H3N8
+D0135,Histamine H4 receptor,200,exact,1.0,0.0,1.0,CHEMBL3759,Q9H3N8,Inhibition,Classification,CHEMBL3759_Q9H3N8_inhibition_cls_rf,CHEMBL3759_Q9H3N8_inhibition_cls_rf.pkl,rf,AUC_Score,0.962962962962963,Q9H3N8
+D0136,Voltage-gated calcium channel alpha Cav1.2,200,ambiguous,0.7142857142857143,0.6666666666666666,0.04761904761904767,,,,,,,,,,
+D0137,Rho-associated protein kinase 1,200,exact,1.0,0.0,1.0,CHEMBL3231,Q13464,Inhibition,Classification,CHEMBL3231_Q13464_inhibition_cls_rf,CHEMBL3231_Q13464_inhibition_cls_rf.pkl,rf,AUC_Score,0.9021332653408124,Q13464
+D0138,Adrenergic receptor beta-3,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL246,P13945,Activation,Classification,CHEMBL246_P13945_activation_cls_xgb,CHEMBL246_P13945_activation_cls_xgb.pkl,xgb,AUC_Score,0.9387755102040816,P13945
+D0138,Adrenergic receptor beta-3,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL246,P13945,Inhibition,Classification,CHEMBL246_P13945_inhibition_cls_xgb,CHEMBL246_P13945_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8393351800554016,P13945
+D0138,Adrenergic receptor beta-3,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL246,P13945,Inhibition,Regression,CHEMBL246_P13945_inhibition_reg_xgb,CHEMBL246_P13945_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7251942169335353,P13945
+D0139,C-X-C chemokine receptor type 1,200,exact,1.0,0.0,1.0,CHEMBL4029,P25024,Inhibition,Classification,CHEMBL4029_P25024_inhibition_cls_rf,CHEMBL4029_P25024_inhibition_cls_rf.pkl,rf,AUC_Score,0.8506944444444444,P25024
+D0140,Carbonic anhydrase VI,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0141,Farnesoid X-activated receptor,200,ambiguous,0.5,0.4,0.09999999999999998,,,,,,,,,,
+D0142,GABA A receptor alpha-2,200,ambiguous,0.5714285714285714,0.5714285714285714,0.0,,,,,,,,,,
+D0143,GABA A receptor alpha-1,200,ambiguous,0.5714285714285714,0.5714285714285714,0.0,,,,,,,,,,
+D0144,Gastric H+/K+ ATPase alpha,200,ambiguous,0.4444444444444444,0.4,0.0444444444444444,,,,,,,,,,
+D0145,Cholecystokinin receptor type A,200,exact,1.0,0.0,1.0,CHEMBL1901,P32238,Activation,Classification,CHEMBL1901_P32238_activation_cls_rf,CHEMBL1901_P32238_activation_cls_rf.pkl,rf,AUC_Score,0.8967741935483872,P32238
+D0145,Cholecystokinin receptor type A,200,exact,1.0,0.0,1.0,CHEMBL1901,P32238,Inhibition,Classification,CHEMBL1901_P32238_inhibition_cls_rf,CHEMBL1901_P32238_inhibition_cls_rf.pkl,rf,AUC_Score,0.9049636803874092,P32238
+D0145,Cholecystokinin receptor type A,200,exact,1.0,0.0,1.0,CHEMBL1901,P32238,Inhibition,Regression,CHEMBL1901_P32238_inhibition_reg_xgb,CHEMBL1901_P32238_inhibition_reg_xgb.pkl,xgb,R�_Score,0.745125140439294,P32238
+D0146,Matrix metalloproteinase-1,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0147,Kinesin-like protein KIF11,200,exact,1.0,0.0,1.0,CHEMBL4581,P52732,Inhibition,Classification,CHEMBL4581_P52732_inhibition_cls_xgb,CHEMBL4581_P52732_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8436288759689923,P52732
+D0148,Serine/threonine-protein kinase Chk2,200,exact,1.0,0.0,1.0,CHEMBL2527,O96017,Inhibition,Classification,CHEMBL2527_O96017_inhibition_cls_rf,CHEMBL2527_O96017_inhibition_cls_rf.pkl,rf,AUC_Score,0.9356594110115236,O96017
+D0148,Serine/threonine-protein kinase Chk2,200,exact,1.0,0.0,1.0,CHEMBL2527,O96017,Inhibition,Regression,CHEMBL2527_O96017_inhibition_reg_rf,CHEMBL2527_O96017_inhibition_reg_rf.pkl,rf,R�_Score,0.7497399065119433,O96017
+D0149,Adrenergic receptor beta-2,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL210,P07550,Activation,Classification,CHEMBL210_P07550_activation_cls_rf,CHEMBL210_P07550_activation_cls_rf.pkl,rf,AUC_Score,0.9032882011605416,P07550
+D0149,Adrenergic receptor beta-2,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL210,P07550,Inhibition,Classification,CHEMBL210_P07550_inhibition_cls_xgb,CHEMBL210_P07550_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9253472222222224,P07550
+D0150,Histone deacetylase 8,200,exact,1.0,0.0,1.0,CHEMBL3192,Q9BY41,Inhibition,Classification,CHEMBL3192_Q9BY41_inhibition_cls_rf,CHEMBL3192_Q9BY41_inhibition_cls_rf.pkl,rf,AUC_Score,0.8564648839259477,Q9BY41
+D0151,Carbonic anhydrase IV,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0152,Platelet-derived growth factor receptor alpha,200,exact,1.0,0.0,1.0,CHEMBL2007,P16234,Inhibition,Classification,CHEMBL2007_P16234_inhibition_cls_xgb,CHEMBL2007_P16234_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9078804347826088,P16234
+D0152,Platelet-derived growth factor receptor alpha,200,exact,1.0,0.0,1.0,CHEMBL2007,P16234,Inhibition,Regression,CHEMBL2007_P16234_inhibition_reg_xgb,CHEMBL2007_P16234_inhibition_reg_xgb.pkl,xgb,R�_Score,0.766544133696824,P16234
+D0153,Neuromedin-K receptor,200,exact,1.0,0.0,1.0,CHEMBL4429,P29371,Activation,Classification,CHEMBL4429_P29371_activation_cls_rf,CHEMBL4429_P29371_activation_cls_rf.pkl,rf,AUC_Score,0.8095238095238095,P29371
+D0153,Neuromedin-K receptor,200,exact,1.0,0.0,1.0,CHEMBL4429,P29371,Inhibition,Classification,CHEMBL4429_P29371_inhibition_cls_rf,CHEMBL4429_P29371_inhibition_cls_rf.pkl,rf,AUC_Score,0.914500683994528,P29371
+D0154,cAMP-dependent chloride channel F508 deletion,200,ambiguous,0.4444444444444444,0.4,0.0444444444444444,,,,,,,,,,
+D0155,Dopamine transporter,200,token_overlap,0.6666666666666666,0.4,0.2666666666666666,CHEMBL238,Q01959,Activation,Classification,CHEMBL238_Q01959_activation_cls_rf,CHEMBL238_Q01959_activation_cls_rf.pkl,rf,AUC_Score,0.8905435591958302,Q01959
+D0155,Dopamine transporter,200,token_overlap,0.6666666666666666,0.4,0.2666666666666666,CHEMBL238,Q01959,Inhibition,Classification,CHEMBL238_Q01959_inhibition_cls_xgb,CHEMBL238_Q01959_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9074765674102546,Q01959
+D0156,Prostaglandin E synthase,200,exact,1.0,0.0,1.0,CHEMBL5658,O14684,Inhibition,Classification,CHEMBL5658_O14684_inhibition_cls_rf,CHEMBL5658_O14684_inhibition_cls_rf.pkl,rf,AUC_Score,0.8986943907156673,O14684
+D0157,C-C chemokine receptor type 4,200,exact,1.0,0.0,1.0,CHEMBL2414,P51679,Inhibition,Classification,CHEMBL2414_P51679_inhibition_cls_rf,CHEMBL2414_P51679_inhibition_cls_rf.pkl,rf,AUC_Score,0.8666666666666666,P51679
+D0158,ALK tyrosine kinase receptor,200,exact,1.0,0.0,1.0,CHEMBL4247,Q9UM73,Activation,Classification,CHEMBL4247_Q9UM73_activation_cls_rf,CHEMBL4247_Q9UM73_activation_cls_rf.pkl,rf,AUC_Score,0.8095238095238095,Q9UM73
+D0159,ATP-binding cassette transporter G2,200,ambiguous,0.6153846153846154,0.5454545454545454,0.06993006993007,,,,,,,,,,
+D0160,C-X-C chemokine receptor type 2,200,exact,1.0,0.0,1.0,CHEMBL2434,P25025,Inhibition,Classification,CHEMBL2434_P25025_inhibition_cls_rf,CHEMBL2434_P25025_inhibition_cls_rf.pkl,rf,AUC_Score,0.9638157894736844,P25025
+D0160,C-X-C chemokine receptor type 2,200,exact,1.0,0.0,1.0,CHEMBL2434,P25025,Inhibition,Regression,CHEMBL2434_P25025_inhibition_reg_xgb,CHEMBL2434_P25025_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7877563859647803,P25025
+D0161,Debrisoquine 4-hydroxylase,200,ambiguous,0.6666666666666666,0.5714285714285714,0.09523809523809523,,,,,,,,,,
+D0162,Lysosomal alpha-glucosidase,200,exact,1.0,0.0,1.0,CHEMBL2608,P10253,,,,,,,,
+D0163,Tyrosine-protein kinase Kit,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0164,Peroxisome proliferator-activated receptor gamma,200,exact,1.0,0.0,1.0,CHEMBL235,P37231,Activation,Classification,CHEMBL235_P37231_activation_cls_xgb,CHEMBL235_P37231_activation_cls_xgb.pkl,xgb,AUC_Score,0.8627450980392157,P37231
+D0164,Peroxisome proliferator-activated receptor gamma,200,exact,1.0,0.0,1.0,CHEMBL235,P37231,Inhibition,Classification,CHEMBL235_P37231_inhibition_cls_rf,CHEMBL235_P37231_inhibition_cls_rf.pkl,rf,AUC_Score,0.8098290598290598,P37231
+D0164,Peroxisome proliferator-activated receptor gamma,200,exact,1.0,0.0,1.0,CHEMBL235,P37231,Inhibition,Regression,CHEMBL235_P37231_inhibition_reg_xgb,CHEMBL235_P37231_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7094141560771974,P37231
+D0165,Opioid receptor delta,200,token_overlap,1.0,0.5,0.5,CHEMBL236,P41143,Activation,Classification,CHEMBL236_P41143_activation_cls_rf,CHEMBL236_P41143_activation_cls_rf.pkl,rf,AUC_Score,0.828125,P41143
+D0165,Opioid receptor delta,200,token_overlap,1.0,0.5,0.5,CHEMBL236,P41143,Inhibition,Classification,CHEMBL236_P41143_inhibition_cls_xgb,CHEMBL236_P41143_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9199322689888728,P41143
+D0166,Platelet-derived growth factor receptor beta,200,exact,1.0,0.0,1.0,CHEMBL1913,P09619,Activation,Classification,CHEMBL1913_P09619_activation_cls_rf,CHEMBL1913_P09619_activation_cls_rf.pkl,rf,AUC_Score,0.925925925925926,P09619
+D0166,Platelet-derived growth factor receptor beta,200,exact,1.0,0.0,1.0,CHEMBL1913,P09619,Inhibition,Classification,CHEMBL1913_P09619_inhibition_cls_rf,CHEMBL1913_P09619_inhibition_cls_rf.pkl,rf,AUC_Score,0.90625,P09619
+D0167,Sphingosine kinase 2,200,exact,1.0,0.0,1.0,CHEMBL3023,Q9NRA0,Inhibition,Classification,CHEMBL3023_Q9NRA0_inhibition_cls_rf,CHEMBL3023_Q9NRA0_inhibition_cls_rf.pkl,rf,AUC_Score,0.9633699633699632,Q9NRA0
+D0168,Epidermal growth factor receptor,200,exact,1.0,0.0,1.0,CHEMBL203,P00533,Inhibition,Classification,CHEMBL203_P00533_inhibition_cls_xgb,CHEMBL203_P00533_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.953186274509804,P00533
+D0168,Epidermal growth factor receptor,200,exact,1.0,0.0,1.0,CHEMBL203,P00533,Inhibition,Regression,CHEMBL203_P00533_inhibition_reg_rf,CHEMBL203_P00533_inhibition_reg_rf.pkl,rf,R�_Score,0.709058336510545,P00533
+D0169,D-amino acid oxidase,200,exact,1.0,0.0,1.0,CHEMBL5485,P14920,Activation,Classification,CHEMBL5485_P14920_activation_cls_rf,CHEMBL5485_P14920_activation_cls_rf.pkl,rf,AUC_Score,1.0,P14920
+D0169,D-amino acid oxidase,200,exact,1.0,0.0,1.0,CHEMBL5485,P14920,Inhibition,Classification,CHEMBL5485_P14920_inhibition_cls_rf,CHEMBL5485_P14920_inhibition_cls_rf.pkl,rf,AUC_Score,0.8931122448979592,P14920
+D0170,Glucagon receptor,200,exact,1.0,0.0,1.0,CHEMBL1985,P47871,Inhibition,Classification,CHEMBL1985_P47871_inhibition_cls_rf,CHEMBL1985_P47871_inhibition_cls_rf.pkl,rf,AUC_Score,0.8993502274204029,P47871
+D0171,Prostaglandin G/H synthase 1,200,exact,1.0,0.0,1.0,CHEMBL221,P23219,Inhibition,Classification,CHEMBL221_P23219_inhibition_cls_xgb,CHEMBL221_P23219_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8303030303030303,P23219
+D0172,Tropomyosin-related kinase A,200,ambiguous,0.5714285714285714,0.5,0.0714285714285714,,,,,,,,,,
+D0173,Thyrotropin receptor,200,exact,1.0,0.0,1.0,CHEMBL1963,P16473,,,,,,,,
+D0174,Proto-oncogene c-Ret,200,ambiguous,0.75,0.6666666666666666,0.08333333333333337,,,,,,,,,,
+D0175,Opioid receptor kappa,200,token_overlap,1.0,0.5,0.5,CHEMBL237,P41145,Activation,Classification,CHEMBL237_P41145_activation_cls_rf,CHEMBL237_P41145_activation_cls_rf.pkl,rf,AUC_Score,0.8888888888888888,P41145
+D0175,Opioid receptor kappa,200,token_overlap,1.0,0.5,0.5,CHEMBL237,P41145,Inhibition,Classification,CHEMBL237_P41145_inhibition_cls_xgb,CHEMBL237_P41145_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9305555555555556,P41145
+D0176,Matrix metalloproteinase-13,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0177,Dihydrodiol dehydrogenase type I,200,ambiguous,0.4,0.4,0.0,,,,,,,,,,
+D0178,Dihydroorotate dehydrogenase,200,token_overlap,0.6666666666666666,0.5,0.16666666666666663,CHEMBL1966,Q02127,Inhibition,Classification,CHEMBL1966_Q02127_inhibition_cls_rf,CHEMBL1966_Q02127_inhibition_cls_rf.pkl,rf,AUC_Score,0.9272129904593416,Q02127
+D0178,Dihydroorotate dehydrogenase,200,token_overlap,0.6666666666666666,0.5,0.16666666666666663,CHEMBL1966,Q02127,Inhibition,Regression,CHEMBL1966_Q02127_inhibition_reg_xgb,CHEMBL1966_Q02127_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7019741182988906,Q02127
+D0179,Angiotensinogenase renin,200,token_overlap,0.6666666666666666,0.0,0.6666666666666666,CHEMBL286,P00797,Inhibition,Classification,CHEMBL286_P00797_inhibition_cls_rf,CHEMBL286_P00797_inhibition_cls_rf.pkl,rf,AUC_Score,0.8860830527497194,P00797
+D0180,Phosphodiesterase 4A,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0181,Soluble epoxide hydrolase,200,ambiguous,0.6666666666666666,0.5714285714285714,0.09523809523809523,,,,,,,,,,
+D0182,ERK activator kinase 1,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0183,Adenosine A3 receptor,200,token_overlap,1.0,0.5,0.5,CHEMBL256,P0DMS8,Inhibition,Classification,CHEMBL256_P0DMS8_inhibition_cls_rf,CHEMBL256_P0DMS8_inhibition_cls_rf.pkl,rf,AUC_Score,0.8966101694915254,P0DMS8
+D0184,Glutamate receptor ionotropic NMDA 1,200,exact,1.0,0.0,1.0,CHEMBL2015,Q05586,,,,,,,,
+D0185,GABA A receptor alpha-3,200,ambiguous,0.5714285714285714,0.5714285714285714,0.0,,,,,,,,,,
+D0186,Peroxisome proliferator-activated receptor delta,200,exact,1.0,0.0,1.0,CHEMBL3979,Q03181,Activation,Classification,CHEMBL3979_Q03181_activation_cls_xgb,CHEMBL3979_Q03181_activation_cls_xgb.pkl,xgb,AUC_Score,0.9353331694123432,Q03181
+D0186,Peroxisome proliferator-activated receptor delta,200,exact,1.0,0.0,1.0,CHEMBL3979,Q03181,Inhibition,Classification,CHEMBL3979_Q03181_inhibition_cls_rf,CHEMBL3979_Q03181_inhibition_cls_rf.pkl,rf,AUC_Score,0.9456521739130436,Q03181
+D0186,Peroxisome proliferator-activated receptor delta,200,exact,1.0,0.0,1.0,CHEMBL3979,Q03181,Inhibition,Regression,CHEMBL3979_Q03181_inhibition_reg_rf,CHEMBL3979_Q03181_inhibition_reg_rf.pkl,rf,R�_Score,0.7467755821394397,Q03181
+D0187,Tyrosine-protein kinase SYK,200,exact,1.0,0.0,1.0,CHEMBL2599,P43405,Inhibition,Classification,CHEMBL2599_P43405_inhibition_cls_rf,CHEMBL2599_P43405_inhibition_cls_rf.pkl,rf,AUC_Score,0.8822102425876011,P43405
+D0188,Bacterial Dihydrofolate reductase,200,token_overlap,0.8,0.4,0.4,CHEMBL202,P00374,Inhibition,Classification,CHEMBL202_P00374_inhibition_cls_rf,CHEMBL202_P00374_inhibition_cls_rf.pkl,rf,AUC_Score,0.8879310344827586,P00374
+D0189,Vascular endothelial growth factor receptor 3,200,exact,1.0,0.0,1.0,CHEMBL1955,P35916,Inhibition,Classification,CHEMBL1955_P35916_inhibition_cls_rf,CHEMBL1955_P35916_inhibition_cls_rf.pkl,rf,AUC_Score,0.8732943469785576,P35916
+D0190,Janus kinase 1,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0191,Tyrosine-protein kinase ABL1,200,exact,1.0,0.0,1.0,CHEMBL1862,P00519,Inhibition,Classification,CHEMBL1862_P00519_inhibition_cls_xgb,CHEMBL1862_P00519_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8809185606060607,P00519
+D0192,Cathepsin A,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0193,Vascular endothelial growth factor receptor 1,200,exact,1.0,0.0,1.0,CHEMBL1868,P17948,Inhibition,Classification,CHEMBL1868_P17948_inhibition_cls_rf,CHEMBL1868_P17948_inhibition_cls_rf.pkl,rf,AUC_Score,0.8900255754475703,P17948
+D0194,Nitric-oxide synthase inducible,200,exact,1.0,0.0,1.0,CHEMBL4481,P35228,Activation,Classification,CHEMBL4481_P35228_activation_cls_rf,CHEMBL4481_P35228_activation_cls_rf.pkl,rf,AUC_Score,0.965034965034965,P35228
+D0194,Nitric-oxide synthase inducible,200,exact,1.0,0.0,1.0,CHEMBL4481,P35228,Inhibition,Classification,CHEMBL4481_P35228_inhibition_cls_rf,CHEMBL4481_P35228_inhibition_cls_rf.pkl,rf,AUC_Score,0.9019886363636364,P35228
+D0194,Nitric-oxide synthase inducible,200,exact,1.0,0.0,1.0,CHEMBL4481,P35228,Inhibition,Regression,CHEMBL4481_P35228_inhibition_reg_rf,CHEMBL4481_P35228_inhibition_reg_rf.pkl,rf,R�_Score,0.7169185014880517,P35228
+D0195,Neuronal acetylcholine receptor alpha-4/beta-2,200,ambiguous,0.8,0.8,0.0,,,,,,,,,,
+D0196,Albendazole monooxygenase,200,ambiguous,0.5,0.4,0.09999999999999998,,,,,,,,,,
+D0197,5-HT 3A receptor,200,token_overlap,0.6666666666666666,0.5,0.16666666666666663,CHEMBL1899,P46098,Activation,Classification,CHEMBL1899_P46098_activation_cls_rf,CHEMBL1899_P46098_activation_cls_rf.pkl,rf,AUC_Score,1.0,P46098
+D0197,5-HT 3A receptor,200,token_overlap,0.6666666666666666,0.5,0.16666666666666663,CHEMBL1899,P46098,Inhibition,Classification,CHEMBL1899_P46098_inhibition_cls_rf,CHEMBL1899_P46098_inhibition_cls_rf.pkl,rf,AUC_Score,1.0,P46098
+D0197,5-HT 3A receptor,200,token_overlap,0.6666666666666666,0.5,0.16666666666666663,CHEMBL1899,P46098,Inhibition,Regression,CHEMBL1899_P46098_inhibition_reg_xgb,CHEMBL1899_P46098_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7302530163871297,P46098
+D0198,Histamine H3 receptor,200,exact,1.0,0.0,1.0,CHEMBL264,Q9Y5N1,Activation,Classification,CHEMBL264_Q9Y5N1_activation_cls_rf,CHEMBL264_Q9Y5N1_activation_cls_rf.pkl,rf,AUC_Score,0.9926470588235294,Q9Y5N1
+D0198,Histamine H3 receptor,200,exact,1.0,0.0,1.0,CHEMBL264,Q9Y5N1,Inhibition,Classification,CHEMBL264_Q9Y5N1_inhibition_cls_xgb,CHEMBL264_Q9Y5N1_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9355487346529692,Q9Y5N1
+D0198,Histamine H3 receptor,200,exact,1.0,0.0,1.0,CHEMBL264,Q9Y5N1,Inhibition,Regression,CHEMBL264_Q9Y5N1_inhibition_reg_xgb,CHEMBL264_Q9Y5N1_inhibition_reg_xgb.pkl,xgb,R�_Score,0.700026394290262,Q9Y5N1
+D0199,Voltage-gated calcium channel alpha Cav3.1,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0200,Somatostatin receptor type 5,200,exact,1.0,0.0,1.0,CHEMBL1792,P35346,Inhibition,Classification,CHEMBL1792_P35346_inhibition_cls_xgb,CHEMBL1792_P35346_inhibition_cls_xgb.pkl,xgb,AUC_Score,1.0,P35346
+D0200,Somatostatin receptor type 5,200,exact,1.0,0.0,1.0,CHEMBL1792,P35346,Inhibition,Regression,CHEMBL1792_P35346_inhibition_reg_xgb,CHEMBL1792_P35346_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7763378412386072,P35346
+D0201,Ubiquitin-protein ligase E3 Mdm2,200,token_overlap,1.0,0.75,0.25,CHEMBL5023,Q00987,Activation,Classification,CHEMBL5023_Q00987_activation_cls_rf,CHEMBL5023_Q00987_activation_cls_rf.pkl,rf,AUC_Score,0.8676470588235294,Q00987
+D0201,Ubiquitin-protein ligase E3 Mdm2,200,token_overlap,1.0,0.75,0.25,CHEMBL5023,Q00987,Inhibition,Classification,CHEMBL5023_Q00987_inhibition_cls_xgb,CHEMBL5023_Q00987_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9613018915218942,Q00987
+D0201,Ubiquitin-protein ligase E3 Mdm2,200,token_overlap,1.0,0.75,0.25,CHEMBL5023,Q00987,Activation,Regression,CHEMBL5023_Q00987_activation_reg_xgb,CHEMBL5023_Q00987_activation_reg_xgb.pkl,xgb,R�_Score,0.8068787842457618,Q00987
+D0201,Ubiquitin-protein ligase E3 Mdm2,200,token_overlap,1.0,0.75,0.25,CHEMBL5023,Q00987,Inhibition,Regression,CHEMBL5023_Q00987_inhibition_reg_xgb,CHEMBL5023_Q00987_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7344589725231254,Q00987
+D0202,Coagulation factor XII,200,exact,1.0,0.0,1.0,CHEMBL2821,P00748,Inhibition,Classification,CHEMBL2821_P00748_inhibition_cls_xgb,CHEMBL2821_P00748_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9050496911093204,P00748
+D0203,dUTP pyrophosphatase,200,ambiguous,0.5,0.4,0.09999999999999998,,,,,,,,,,
+D0204,Ras-related protein Rab-9A,200,exact,1.0,0.0,1.0,CHEMBL1293294,P51151,,,,,,,,
+D0205,Smoothened homolog,200,token_overlap,0.6666666666666666,0.5,0.16666666666666663,CHEMBL5971,Q99835,Inhibition,Classification,CHEMBL5971_Q99835_inhibition_cls_xgb,CHEMBL5971_Q99835_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.90625,Q99835
+D0206,Prostaglandin G/H synthase 2,200,exact,1.0,0.0,1.0,CHEMBL230,P35354,Inhibition,Classification,CHEMBL230_P35354_inhibition_cls_rf,CHEMBL230_P35354_inhibition_cls_rf.pkl,rf,AUC_Score,0.9037456445993032,P35354
+D0207,Dopamine D2 receptor,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0208,Neurotensin receptor type 1,200,exact,1.0,0.0,1.0,CHEMBL4123,P30989,Activation,Classification,CHEMBL4123_P30989_activation_cls_rf,CHEMBL4123_P30989_activation_cls_rf.pkl,rf,AUC_Score,0.997289972899729,P30989
+D0208,Neurotensin receptor type 1,200,exact,1.0,0.0,1.0,CHEMBL4123,P30989,Inhibition,Classification,CHEMBL4123_P30989_inhibition_cls_xgb,CHEMBL4123_P30989_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8870523415977962,P30989
+D0208,Neurotensin receptor type 1,200,exact,1.0,0.0,1.0,CHEMBL4123,P30989,Activation,Regression,CHEMBL4123_P30989_activation_reg_rf,CHEMBL4123_P30989_activation_reg_rf.pkl,rf,R�_Score,0.8306025612759358,P30989
+D0209,Macrophage migration inhibitory factor,200,exact,1.0,0.0,1.0,CHEMBL2085,P14174,Inhibition,Classification,CHEMBL2085_P14174_inhibition_cls_rf,CHEMBL2085_P14174_inhibition_cls_rf.pkl,rf,AUC_Score,0.9309764309764308,P14174
+D0210,Muscarinic acetylcholine receptor M3,200,exact,1.0,0.0,1.0,CHEMBL245,P20309,Activation,Classification,CHEMBL245_P20309_activation_cls_rf,CHEMBL245_P20309_activation_cls_rf.pkl,rf,AUC_Score,0.9722222222222224,P20309
+D0210,Muscarinic acetylcholine receptor M3,200,exact,1.0,0.0,1.0,CHEMBL245,P20309,Inhibition,Classification,CHEMBL245_P20309_inhibition_cls_rf,CHEMBL245_P20309_inhibition_cls_rf.pkl,rf,AUC_Score,0.8976069949378738,P20309
+D0210,Muscarinic acetylcholine receptor M3,200,exact,1.0,0.0,1.0,CHEMBL245,P20309,Activation,Regression,CHEMBL245_P20309_activation_reg_xgb,CHEMBL245_P20309_activation_reg_xgb.pkl,xgb,R�_Score,0.8237863371982908,P20309
+D0211,PI3-kinase delta,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0212,Stress-activated protein kinase JNK1,200,ambiguous,0.4,0.4,0.0,,,,,,,,,,
+D0213,DNA-binding factor KBF1,200,ambiguous,0.5714285714285714,0.5714285714285714,0.0,,,,,,,,,,
+D0214,Protein kinase C beta,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL3045,P05771,Inhibition,Classification,CHEMBL3045_P05771_inhibition_cls_rf,CHEMBL3045_P05771_inhibition_cls_rf.pkl,rf,AUC_Score,0.9465093729799612,P05771
+D0215,Matrix metalloproteinase-2,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0216,Neutrophil elastase,200,exact,1.0,0.0,1.0,CHEMBL248,P08246,Inhibition,Classification,CHEMBL248_P08246_inhibition_cls_xgb,CHEMBL248_P08246_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9210055096418732,P08246
+D0217,Follicle-stimulating hormone receptor,200,exact,1.0,0.0,1.0,CHEMBL2024,P23945,,,,,,,,
+D0218,Bromodomain-containing protein 4,200,exact,1.0,0.0,1.0,CHEMBL1163125,O60885,Inhibition,Classification,CHEMBL1163125_O60885_inhibition_cls_rf,CHEMBL1163125_O60885_inhibition_cls_rf.pkl,rf,AUC_Score,0.9388888888888888,O60885
+D0219,Histone deacetylase 1,200,exact,1.0,0.0,1.0,CHEMBL325,Q13547,Activation,Classification,CHEMBL325_Q13547_activation_cls_rf,CHEMBL325_Q13547_activation_cls_rf.pkl,rf,AUC_Score,0.8055555555555556,Q13547
+D0219,Histone deacetylase 1,200,exact,1.0,0.0,1.0,CHEMBL325,Q13547,Inhibition,Classification,CHEMBL325_Q13547_inhibition_cls_rf,CHEMBL325_Q13547_inhibition_cls_rf.pkl,rf,AUC_Score,1.0,Q13547
+D0220,Polo-like kinase 1,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0221,Phosphodiesterase 5A,200,ambiguous,0.5,0.4,0.09999999999999998,,,,,,,,,,
+D0222,Orexin receptor type 2,200,exact,1.0,0.0,1.0,CHEMBL4792,O43614,,,,,,,,
+D0223,Cathepsin L,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0224,Survival motor neuron protein,200,exact,1.0,0.0,1.0,CHEMBL1293232,Q16637,,,,,,,,
+D0225,Melanocortin receptor 4,200,exact,1.0,0.0,1.0,CHEMBL259,P32245,Activation,Classification,CHEMBL259_P32245_activation_cls_xgb,CHEMBL259_P32245_activation_cls_xgb.pkl,xgb,AUC_Score,0.8389355742296919,P32245
+D0225,Melanocortin receptor 4,200,exact,1.0,0.0,1.0,CHEMBL259,P32245,Inhibition,Classification,CHEMBL259_P32245_inhibition_cls_xgb,CHEMBL259_P32245_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8899253731343284,P32245
+D0226,Leukocyte common antigen,200,ambiguous,0.6666666666666666,0.5714285714285714,0.09523809523809523,,,,,,,,,,
+D0227,Matrix metalloproteinase-7,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0228,Estradiol 17 beta-dehydrogenase 1,200,ambiguous,0.8,0.8,0.0,,,,,,,,,,
+D0229,Glutamate receptor ionotropic kainate 1,200,exact,1.0,0.0,1.0,CHEMBL1918,P39086,Inhibition,Classification,CHEMBL1918_P39086_inhibition_cls_xgb,CHEMBL1918_P39086_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8705357142857144,P39086
+D0230,Cyclin-dependent kinase 9,200,exact,1.0,0.0,1.0,CHEMBL3116,P50750,Inhibition,Classification,CHEMBL3116_P50750_inhibition_cls_xgb,CHEMBL3116_P50750_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9141274238227148,P50750
+D0231,Neuronal acetylcholine receptor alpha-3/beta-4,200,ambiguous,0.8,0.8,0.0,,,,,,,,,,
+D0232,Fms-like tyrosine kinase 3,200,token_overlap,0.75,0.5714285714285714,0.1785714285714286,CHEMBL5838,P21860,Inhibition,Classification,CHEMBL5838_P21860_inhibition_cls_xgb,CHEMBL5838_P21860_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.875,P21860
+D0233,Angiotensin II receptor type-1,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL227,P30556,Inhibition,Classification,CHEMBL227_P30556_inhibition_cls_rf,CHEMBL227_P30556_inhibition_cls_rf.pkl,rf,AUC_Score,1.0,P30556
+D0234,Serine/threonine-protein kinase mTOR,200,exact,1.0,0.0,1.0,CHEMBL2842,P42345,Inhibition,Classification,CHEMBL2842_P42345_inhibition_cls_xgb,CHEMBL2842_P42345_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9595588235294118,P42345
+D0234,Serine/threonine-protein kinase mTOR,200,exact,1.0,0.0,1.0,CHEMBL2842,P42345,Inhibition,Regression,CHEMBL2842_P42345_inhibition_reg_xgb,CHEMBL2842_P42345_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7633235080280477,P42345
+D0235,Tryptophan 23-dioxygenase,200,token_overlap,0.5714285714285714,0.4,0.17142857142857137,CHEMBL2140,P48775,Inhibition,Classification,CHEMBL2140_P48775_inhibition_cls_xgb,CHEMBL2140_P48775_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9555178268251272,P48775
+D0236,Janus kinase 2,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0237,Staphylococcus DNA gyrase A,200,ambiguous,0.4,0.4,0.0,,,,,,,,,,
+D0238,Protein kinase C delta,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL2996,Q05655,Activation,Classification,CHEMBL2996_Q05655_activation_cls_rf,CHEMBL2996_Q05655_activation_cls_rf.pkl,rf,AUC_Score,0.8888888888888888,Q05655
+D0238,Protein kinase C delta,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL2996,Q05655,Inhibition,Classification,CHEMBL2996_Q05655_inhibition_cls_rf,CHEMBL2996_Q05655_inhibition_cls_rf.pkl,rf,AUC_Score,0.9137426900584796,Q05655
+D0239,Quinone reductase 2,200,ambiguous,0.6666666666666666,0.5714285714285714,0.09523809523809523,,,,,,,,,,
+D0240,Carnitine O-palmitoyltransferase I,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0241,FK506-binding protein 1A,200,token_overlap,0.6666666666666666,0.4,0.2666666666666666,CHEMBL6067389,Q9BQG0,,,,,,,,
+D0242,Thromboxane A2 receptor,200,exact,1.0,0.0,1.0,CHEMBL2069,P21731,Activation,Classification,CHEMBL2069_P21731_activation_cls_rf,CHEMBL2069_P21731_activation_cls_rf.pkl,rf,AUC_Score,0.9814814814814816,P21731
+D0242,Thromboxane A2 receptor,200,exact,1.0,0.0,1.0,CHEMBL2069,P21731,Inhibition,Classification,CHEMBL2069_P21731_inhibition_cls_xgb,CHEMBL2069_P21731_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8625204582651391,P21731
+D0242,Thromboxane A2 receptor,200,exact,1.0,0.0,1.0,CHEMBL2069,P21731,Activation,Regression,CHEMBL2069_P21731_activation_reg_rf,CHEMBL2069_P21731_activation_reg_rf.pkl,rf,R�_Score,0.7172233558656351,P21731
+D0243,Liver carboxylesterase,200,token_overlap,0.8,0.4,0.4,CHEMBL2265,P23141,Inhibition,Classification,CHEMBL2265_P23141_inhibition_cls_rf,CHEMBL2265_P23141_inhibition_cls_rf.pkl,rf,AUC_Score,0.8713235294117647,P23141
+D0244,Glutamate receptor ionotropic NMDA 2B,200,exact,1.0,0.0,1.0,CHEMBL1904,Q13224,Inhibition,Classification,CHEMBL1904_Q13224_inhibition_cls_xgb,CHEMBL1904_Q13224_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8224038353706403,Q13224
+D0245,Coagulation factor XI,200,exact,1.0,0.0,1.0,CHEMBL2820,P03951,Inhibition,Classification,CHEMBL2820_P03951_inhibition_cls_xgb,CHEMBL2820_P03951_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8777027027027027,P03951
+D0246,Cannabinoid receptor 1,200,exact,1.0,0.0,1.0,CHEMBL218,P21554,Activation,Classification,CHEMBL218_P21554_activation_cls_rf,CHEMBL218_P21554_activation_cls_rf.pkl,rf,AUC_Score,1.0,P21554
+D0246,Cannabinoid receptor 1,200,exact,1.0,0.0,1.0,CHEMBL218,P21554,Inhibition,Classification,CHEMBL218_P21554_inhibition_cls_rf,CHEMBL218_P21554_inhibition_cls_rf.pkl,rf,AUC_Score,0.9240913120567376,P21554
+D0247,Glycogen synthase kinase-3 alpha,200,exact,1.0,0.0,1.0,CHEMBL2850,P49840,Inhibition,Classification,CHEMBL2850_P49840_inhibition_cls_xgb,CHEMBL2850_P49840_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9134222222222222,P49840
+D0248,Glutaminyl cyclase,200,ambiguous,0.4,0.4,0.0,,,,,,,,,,
+D0249,M-phase inducer phosphatase 2,200,exact,1.0,0.0,1.0,CHEMBL4804,P30305,Inhibition,Classification,CHEMBL4804_P30305_inhibition_cls_rf,CHEMBL4804_P30305_inhibition_cls_rf.pkl,rf,AUC_Score,0.9082568807339448,P30305
+D0250,Matrix metalloproteinase-12,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0251,Adenosine A2a receptor,200,token_overlap,1.0,0.5,0.5,CHEMBL251,P29274,Inhibition,Classification,CHEMBL251_P29274_inhibition_cls_xgb,CHEMBL251_P29274_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.903371045947818,P29274
+D0252,Bacterial Botulinum toxin A,200,ambiguous,0.36363636363636365,0.36363636363636365,0.0,,,,,,,,,,
+D0253,Histamine H1 receptor,200,exact,1.0,0.0,1.0,CHEMBL231,P35367,Inhibition,Classification,CHEMBL231_P35367_inhibition_cls_xgb,CHEMBL231_P35367_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8833766233766234,P35367
+D0253,Histamine H1 receptor,200,exact,1.0,0.0,1.0,CHEMBL231,P35367,Inhibition,Regression,CHEMBL231_P35367_inhibition_reg_xgb,CHEMBL231_P35367_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7190267929698161,P35367
+D0254,Aurora kinase B,200,exact,1.0,0.0,1.0,CHEMBL2185,Q96GD4,Inhibition,Classification,CHEMBL2185_Q96GD4_inhibition_cls_rf,CHEMBL2185_Q96GD4_inhibition_cls_rf.pkl,rf,AUC_Score,0.8942511726602635,Q96GD4
+D0255,5-HT 1A receptor,200,token_overlap,0.6666666666666666,0.4,0.2666666666666666,CHEMBL214,P08908,Inhibition,Classification,CHEMBL214_P08908_inhibition_cls_rf,CHEMBL214_P08908_inhibition_cls_rf.pkl,rf,AUC_Score,0.8012452107279694,P08908
+D0256,Bacterial Fatty acid synthetase I,200,ambiguous,0.5,0.4444444444444444,0.05555555555555558,,,,,,,,,,
+D0257,Thyroid hormone receptor alpha,200,exact,1.0,0.0,1.0,CHEMBL1860,P10827,Activation,Classification,CHEMBL1860_P10827_activation_cls_xgb,CHEMBL1860_P10827_activation_cls_xgb.pkl,xgb,AUC_Score,0.8484848484848485,P10827
+D0257,Thyroid hormone receptor alpha,200,exact,1.0,0.0,1.0,CHEMBL1860,P10827,Inhibition,Classification,CHEMBL1860_P10827_inhibition_cls_rf,CHEMBL1860_P10827_inhibition_cls_rf.pkl,rf,AUC_Score,0.8581081081081081,P10827
+D0257,Thyroid hormone receptor alpha,200,exact,1.0,0.0,1.0,CHEMBL1860,P10827,Activation,Regression,CHEMBL1860_P10827_activation_reg_rf,CHEMBL1860_P10827_activation_reg_rf.pkl,rf,R�_Score,0.7404389786358783,P10827
+D0257,Thyroid hormone receptor alpha,200,exact,1.0,0.0,1.0,CHEMBL1860,P10827,Inhibition,Regression,CHEMBL1860_P10827_inhibition_reg_rf,CHEMBL1860_P10827_inhibition_reg_rf.pkl,rf,R�_Score,0.7432763786857697,P10827
+D0258,Muscarinic acetylcholine receptor M5,200,exact,1.0,0.0,1.0,CHEMBL2035,P08912,Activation,Classification,CHEMBL2035_P08912_activation_cls_xgb,CHEMBL2035_P08912_activation_cls_xgb.pkl,xgb,AUC_Score,0.8194444444444444,P08912
+D0258,Muscarinic acetylcholine receptor M5,200,exact,1.0,0.0,1.0,CHEMBL2035,P08912,Inhibition,Classification,CHEMBL2035_P08912_inhibition_cls_rf,CHEMBL2035_P08912_inhibition_cls_rf.pkl,rf,AUC_Score,0.9333333333333332,P08912
+D0258,Muscarinic acetylcholine receptor M5,200,exact,1.0,0.0,1.0,CHEMBL2035,P08912,Inhibition,Regression,CHEMBL2035_P08912_inhibition_reg_xgb,CHEMBL2035_P08912_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7458016964237042,P08912
+D0259,PI3-kinase alpha,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0260,GABA A receptor beta-2,200,ambiguous,0.5714285714285714,0.5714285714285714,0.0,,,,,,,,,,
+D0261,Toll-like receptor 8,200,exact,1.0,0.0,1.0,CHEMBL5805,Q9NR97,Activation,Classification,CHEMBL5805_Q9NR97_activation_cls_rf,CHEMBL5805_Q9NR97_activation_cls_rf.pkl,rf,AUC_Score,0.9446360153256704,Q9NR97
+D0261,Toll-like receptor 8,200,exact,1.0,0.0,1.0,CHEMBL5805,Q9NR97,Inhibition,Classification,CHEMBL5805_Q9NR97_inhibition_cls_rf,CHEMBL5805_Q9NR97_inhibition_cls_rf.pkl,rf,AUC_Score,0.8409420289855073,Q9NR97
+D0261,Toll-like receptor 8,200,exact,1.0,0.0,1.0,CHEMBL5805,Q9NR97,Activation,Regression,CHEMBL5805_Q9NR97_activation_reg_xgb,CHEMBL5805_Q9NR97_activation_reg_xgb.pkl,xgb,R�_Score,0.8450308176981343,Q9NR97
+D0262,Estrogen receptor beta,200,exact,1.0,0.0,1.0,CHEMBL242,Q92731,Activation,Classification,CHEMBL242_Q92731_activation_cls_rf,CHEMBL242_Q92731_activation_cls_rf.pkl,rf,AUC_Score,0.8903508771929824,Q92731
+D0262,Estrogen receptor beta,200,exact,1.0,0.0,1.0,CHEMBL242,Q92731,Inhibition,Classification,CHEMBL242_Q92731_inhibition_cls_rf,CHEMBL242_Q92731_inhibition_cls_rf.pkl,rf,AUC_Score,0.9375,Q92731
+D0263,Urotensin II receptor,200,ambiguous,0.5,0.4,0.09999999999999998,,,,,,,,,,
+D0264,Acetyl-CoA carboxylase 2,200,exact,1.0,0.0,1.0,CHEMBL4829,O00763,Inhibition,Classification,CHEMBL4829_O00763_inhibition_cls_xgb,CHEMBL4829_O00763_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8671171171171171,O00763
+D0265,Vascular endothelial growth factor receptor 2,200,exact,1.0,0.0,1.0,CHEMBL279,P35968,Inhibition,Classification,CHEMBL279_P35968_inhibition_cls_rf,CHEMBL279_P35968_inhibition_cls_rf.pkl,rf,AUC_Score,0.8211773700305811,P35968
+D0266,Tyrosine-protein phosphatase non-receptor type 2,200,exact,1.0,0.0,1.0,CHEMBL3807,P17706,Inhibition,Classification,CHEMBL3807_P17706_inhibition_cls_rf,CHEMBL3807_P17706_inhibition_cls_rf.pkl,rf,AUC_Score,0.9843369829683698,P17706
+D0266,Tyrosine-protein phosphatase non-receptor type 2,200,exact,1.0,0.0,1.0,CHEMBL3807,P17706,Inhibition,Regression,CHEMBL3807_P17706_inhibition_reg_xgb,CHEMBL3807_P17706_inhibition_reg_xgb.pkl,xgb,R�_Score,0.8277315540715214,P17706
+D0267,Tyrosine-protein kinase UFO,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL4895,P30530,Inhibition,Classification,CHEMBL4895_P30530_inhibition_cls_rf,CHEMBL4895_P30530_inhibition_cls_rf.pkl,rf,AUC_Score,0.8763636363636363,P30530
+D0268,Angiotensin-converting enzyme,200,exact,1.0,0.0,1.0,CHEMBL1808,P12821,,,,,,,,
+D0269,Ephrin type-B receptor 4,200,exact,1.0,0.0,1.0,CHEMBL5147,P54760,Inhibition,Classification,CHEMBL5147_P54760_inhibition_cls_rf,CHEMBL5147_P54760_inhibition_cls_rf.pkl,rf,AUC_Score,0.8223443223443223,P54760
+D0270,Plasma kallikrein,200,exact,1.0,0.0,1.0,CHEMBL2000,P03952,Inhibition,Classification,CHEMBL2000_P03952_inhibition_cls_xgb,CHEMBL2000_P03952_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9014445479962722,P03952
+D0271,Cyclin-dependent kinase 1,200,exact,1.0,0.0,1.0,CHEMBL308,P06493,Inhibition,Classification,CHEMBL308_P06493_inhibition_cls_xgb,CHEMBL308_P06493_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8602910602910603,P06493
+D0272,CREB-binding protein,200,exact,1.0,0.0,1.0,CHEMBL5747,Q92793,Activation,Classification,CHEMBL5747_Q92793_activation_cls_xgb,CHEMBL5747_Q92793_activation_cls_xgb.pkl,xgb,AUC_Score,0.9715909090909092,Q92793
+D0272,CREB-binding protein,200,exact,1.0,0.0,1.0,CHEMBL5747,Q92793,Inhibition,Classification,CHEMBL5747_Q92793_inhibition_cls_xgb,CHEMBL5747_Q92793_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.95211406743941,Q92793
+D0272,CREB-binding protein,200,exact,1.0,0.0,1.0,CHEMBL5747,Q92793,Activation,Regression,CHEMBL5747_Q92793_activation_reg_rf,CHEMBL5747_Q92793_activation_reg_rf.pkl,rf,R�_Score,0.8368376421405909,Q92793
+D0272,CREB-binding protein,200,exact,1.0,0.0,1.0,CHEMBL5747,Q92793,Inhibition,Regression,CHEMBL5747_Q92793_inhibition_reg_xgb,CHEMBL5747_Q92793_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7037352700798001,Q92793
+D0273,Monoamine oxidase type B,200,token_overlap,0.5714285714285714,0.4,0.17142857142857137,CHEMBL2039,P27338,Inhibition,Classification,CHEMBL2039_P27338_inhibition_cls_rf,CHEMBL2039_P27338_inhibition_cls_rf.pkl,rf,AUC_Score,0.8727029438001784,P27338
+D0274,TGF-beta receptor type II,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0275,Sphingosine-1-phosphate receptor 5,200,exact,1.0,0.0,1.0,CHEMBL2274,Q9H228,Activation,Classification,CHEMBL2274_Q9H228_activation_cls_rf,CHEMBL2274_Q9H228_activation_cls_rf.pkl,rf,AUC_Score,0.9523809523809524,Q9H228
+D0275,Sphingosine-1-phosphate receptor 5,200,exact,1.0,0.0,1.0,CHEMBL2274,Q9H228,Inhibition,Classification,CHEMBL2274_Q9H228_inhibition_cls_rf,CHEMBL2274_Q9H228_inhibition_cls_rf.pkl,rf,AUC_Score,0.8,Q9H228
+D0276,Transient receptor potential cation channel V1,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0277,Serine/threonine-protein kinase pim-1,200,exact,1.0,0.0,1.0,CHEMBL2147,P11309,Inhibition,Classification,CHEMBL2147_P11309_inhibition_cls_rf,CHEMBL2147_P11309_inhibition_cls_rf.pkl,rf,AUC_Score,0.9168367346938776,P11309
+D0277,Serine/threonine-protein kinase pim-1,200,exact,1.0,0.0,1.0,CHEMBL2147,P11309,Inhibition,Regression,CHEMBL2147_P11309_inhibition_reg_xgb,CHEMBL2147_P11309_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7096597186416722,P11309
+D0278,5-HT 2C receptor,200,token_overlap,0.6666666666666666,0.4,0.2666666666666666,CHEMBL225,P28335,Inhibition,Classification,CHEMBL225_P28335_inhibition_cls_rf,CHEMBL225_P28335_inhibition_cls_rf.pkl,rf,AUC_Score,0.8465132997843279,P28335
+D0279,Monoamine oxidase type A,200,token_overlap,0.5714285714285714,0.4444444444444444,0.12698412698412698,CHEMBL1951,P21397,Inhibition,Classification,CHEMBL1951_P21397_inhibition_cls_rf,CHEMBL1951_P21397_inhibition_cls_rf.pkl,rf,AUC_Score,0.8903183023872678,P21397
+D0280,Transformation-sensitive protein p120,200,ambiguous,0.3333333333333333,0.3333333333333333,0.0,,,,,,,,,,
+D0281,Histone deacetylase 2,200,exact,1.0,0.0,1.0,CHEMBL1937,Q92769,Inhibition,Classification,CHEMBL1937_Q92769_inhibition_cls_xgb,CHEMBL1937_Q92769_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8781982861150925,Q92769
+D0282,Steroid 11-beta-hydroxylase,200,ambiguous,0.5714285714285714,0.5714285714285714,0.0,,,,,,,,,,
+D0283,Coagulation factor Xa,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0284,Casein kinase II alpha,200,ambiguous,1.0,1.0,0.0,,,,,,,,,,
+D0285,BDNF/NT-3 growth factors receptor,200,exact,1.0,0.0,1.0,CHEMBL4898,Q16620,Inhibition,Classification,CHEMBL4898_Q16620_inhibition_cls_rf,CHEMBL4898_Q16620_inhibition_cls_rf.pkl,rf,AUC_Score,0.959349593495935,Q16620
+D0286,Insulin receptor,200,exact,1.0,0.0,1.0,CHEMBL1981,P06213,,,,,,,,
+D0287,Cyclin-dependent kinase 4,200,exact,1.0,0.0,1.0,CHEMBL331,P11802,Inhibition,Classification,CHEMBL331_P11802_inhibition_cls_rf,CHEMBL331_P11802_inhibition_cls_rf.pkl,rf,AUC_Score,0.9242803504380476,P11802
+D0287,Cyclin-dependent kinase 4,200,exact,1.0,0.0,1.0,CHEMBL331,P11802,Inhibition,Regression,CHEMBL331_P11802_inhibition_reg_xgb,CHEMBL331_P11802_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7268223511092914,P11802
+D0288,Proto-oncogene c-Src,200,ambiguous,0.75,0.6666666666666666,0.08333333333333337,,,,,,,,,,
+D0289,Geranyltranstransferase,200,unmapped,0.0,0.0,0.0,,,,,,,,,,
+D0290,Peroxisome proliferator-activated receptor alpha,200,exact,1.0,0.0,1.0,CHEMBL239,Q07869,Activation,Classification,CHEMBL239_Q07869_activation_cls_xgb,CHEMBL239_Q07869_activation_cls_xgb.pkl,xgb,AUC_Score,0.8573493813878429,Q07869
+D0290,Peroxisome proliferator-activated receptor alpha,200,exact,1.0,0.0,1.0,CHEMBL239,Q07869,Inhibition,Classification,CHEMBL239_Q07869_inhibition_cls_xgb,CHEMBL239_Q07869_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8956228956228957,Q07869
+D0290,Peroxisome proliferator-activated receptor alpha,200,exact,1.0,0.0,1.0,CHEMBL239,Q07869,Inhibition,Regression,CHEMBL239_Q07869_inhibition_reg_rf,CHEMBL239_Q07869_inhibition_reg_rf.pkl,rf,R�_Score,0.7098494017155748,Q07869
+D0291,Alkaline phosphatase tissue-nonspecific,200,token_overlap,0.8888888888888888,0.5714285714285714,0.31746031746031744,CHEMBL5979,P05186,Activation,Classification,CHEMBL5979_P05186_activation_cls_rf,CHEMBL5979_P05186_activation_cls_rf.pkl,rf,AUC_Score,1.0,P05186
+D0291,Alkaline phosphatase tissue-nonspecific,200,token_overlap,0.8888888888888888,0.5714285714285714,0.31746031746031744,CHEMBL5979,P05186,Inhibition,Classification,CHEMBL5979_P05186_inhibition_cls_rf,CHEMBL5979_P05186_inhibition_cls_rf.pkl,rf,AUC_Score,0.814495254529767,P05186
+D0291,Alkaline phosphatase tissue-nonspecific,200,token_overlap,0.8888888888888888,0.5714285714285714,0.31746031746031744,CHEMBL5979,P05186,Inhibition,Regression,CHEMBL5979_P05186_inhibition_reg_rf,CHEMBL5979_P05186_inhibition_reg_rf.pkl,rf,R�_Score,0.71210838470586,P05186
+D0292,Substance-K receptor,200,exact,1.0,0.0,1.0,CHEMBL2327,P21452,Inhibition,Classification,CHEMBL2327_P21452_inhibition_cls_xgb,CHEMBL2327_P21452_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9409266409266408,P21452
+D0292,Substance-K receptor,200,exact,1.0,0.0,1.0,CHEMBL2327,P21452,Inhibition,Regression,CHEMBL2327_P21452_inhibition_reg_rf,CHEMBL2327_P21452_inhibition_reg_rf.pkl,rf,R�_Score,0.7198342377119857,P21452
+D0293,Adenosine A2b receptor,200,token_overlap,1.0,0.5,0.5,CHEMBL255,P29275,Activation,Classification,CHEMBL255_P29275_activation_cls_rf,CHEMBL255_P29275_activation_cls_rf.pkl,rf,AUC_Score,0.8541666666666666,P29275
+D0293,Adenosine A2b receptor,200,token_overlap,1.0,0.5,0.5,CHEMBL255,P29275,Inhibition,Classification,CHEMBL255_P29275_inhibition_cls_rf,CHEMBL255_P29275_inhibition_cls_rf.pkl,rf,AUC_Score,0.906517094017094,P29275
+D0293,Adenosine A2b receptor,200,token_overlap,1.0,0.5,0.5,CHEMBL255,P29275,Activation,Regression,CHEMBL255_P29275_activation_reg_rf,CHEMBL255_P29275_activation_reg_rf.pkl,rf,R�_Score,0.8630858925243421,P29275
+D0293,Adenosine A2b receptor,200,token_overlap,1.0,0.5,0.5,CHEMBL255,P29275,Inhibition,Regression,CHEMBL255_P29275_inhibition_reg_rf,CHEMBL255_P29275_inhibition_reg_rf.pkl,rf,R�_Score,0.7529403204553221,P29275
+D0294,Amyloid beta A4 protein,200,token_overlap,0.6666666666666666,0.4,0.2666666666666666,CHEMBL2487,P05067,Inhibition,Classification,CHEMBL2487_P05067_inhibition_cls_xgb,CHEMBL2487_P05067_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9540229885057472,P05067
+D0294,Amyloid beta A4 protein,200,token_overlap,0.6666666666666666,0.4,0.2666666666666666,CHEMBL2487,P05067,Inhibition,Regression,CHEMBL2487_P05067_inhibition_reg_xgb,CHEMBL2487_P05067_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7648151461676767,P05067
+D0295,TGF-beta receptor type I,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0296,G-protein coupled receptor 55,200,exact,1.0,0.0,1.0,CHEMBL1075322,Q9Y2T6,Activation,Classification,CHEMBL1075322_Q9Y2T6_activation_cls_rf,CHEMBL1075322_Q9Y2T6_activation_cls_rf.pkl,rf,AUC_Score,0.9172932330827068,Q9Y2T6
+D0297,Prolyl endopeptidase FAP,200,exact,1.0,0.0,1.0,CHEMBL4683,Q12884,Inhibition,Classification,CHEMBL4683_Q12884_inhibition_cls_xgb,CHEMBL4683_Q12884_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9754689754689754,Q12884
+D0298,Nicotinic acid receptor,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0299,HIF-prolyl hydroxylase 1,200,ambiguous,0.6666666666666666,0.5714285714285714,0.09523809523809523,,,,,,,,,,
+D0300,DNA topoisomerase I,200,ambiguous,0.6666666666666666,0.5714285714285714,0.09523809523809523,,,,,,,,,,
+D0301,Phosphodiesterase 3A,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0302,Plasminogen,200,exact,1.0,0.0,1.0,CHEMBL1801,P00747,Inhibition,Classification,CHEMBL1801_P00747_inhibition_cls_xgb,CHEMBL1801_P00747_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9386018237082068,P00747
+D0302,Plasminogen,200,exact,1.0,0.0,1.0,CHEMBL1801,P00747,Inhibition,Regression,CHEMBL1801_P00747_inhibition_reg_xgb,CHEMBL1801_P00747_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7324025914731558,P00747
+D0303,Matrix metalloproteinase-9,200,exact,1.0,0.0,1.0,CHEMBL321,P14780,Inhibition,Classification,CHEMBL321_P14780_inhibition_cls_xgb,CHEMBL321_P14780_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8675397166165737,P14780
+D0304,Nicotinamide phosphoribosyltransferase,200,exact,1.0,0.0,1.0,CHEMBL1744525,P43490,Inhibition,Classification,CHEMBL1744525_P43490_inhibition_cls_xgb,CHEMBL1744525_P43490_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9122509057971016,P43490
+D0305,Estrogen receptor,200,exact,1.0,0.0,1.0,CHEMBL206,P03372,Activation,Classification,CHEMBL206_P03372_activation_cls_xgb,CHEMBL206_P03372_activation_cls_xgb.pkl,xgb,AUC_Score,0.8200000000000001,P03372
+D0305,Estrogen receptor,200,exact,1.0,0.0,1.0,CHEMBL206,P03372,Inhibition,Classification,CHEMBL206_P03372_inhibition_cls_rf,CHEMBL206_P03372_inhibition_cls_rf.pkl,rf,AUC_Score,0.9410551134689068,P03372
+D0305,Estrogen receptor,200,exact,1.0,0.0,1.0,CHEMBL206,P03372,Inhibition,Regression,CHEMBL206_P03372_inhibition_reg_rf,CHEMBL206_P03372_inhibition_reg_rf.pkl,rf,R�_Score,0.7447732911327816,P03372
+D0306,Sodium/glucose cotransporter 1,200,exact,1.0,0.0,1.0,CHEMBL4979,P13866,Inhibition,Classification,CHEMBL4979_P13866_inhibition_cls_xgb,CHEMBL4979_P13866_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9662429378531074,P13866
+D0306,Sodium/glucose cotransporter 1,200,exact,1.0,0.0,1.0,CHEMBL4979,P13866,Inhibition,Regression,CHEMBL4979_P13866_inhibition_reg_rf,CHEMBL4979_P13866_inhibition_reg_rf.pkl,rf,R�_Score,0.8178661704324512,P13866
+D0307,Indoleamine 23-dioxygenase 1,200,token_overlap,0.6666666666666666,0.5,0.16666666666666663,CHEMBL4685,P14902,Inhibition,Classification,CHEMBL4685_P14902_inhibition_cls_xgb,CHEMBL4685_P14902_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8484,P14902
+D0307,Indoleamine 23-dioxygenase 1,200,token_overlap,0.6666666666666666,0.5,0.16666666666666663,CHEMBL4685,P14902,Inhibition,Regression,CHEMBL4685_P14902_inhibition_reg_xgb,CHEMBL4685_P14902_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7085648769336932,P14902
+D0308,Erbb4 tyrosine kinase receptor,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0309,Adenosine A1 receptor,200,token_overlap,1.0,0.5,0.5,CHEMBL226,P30542,Inhibition,Classification,CHEMBL226_P30542_inhibition_cls_rf,CHEMBL226_P30542_inhibition_cls_rf.pkl,rf,AUC_Score,0.8612206572769954,P30542
+D0310,Renal carcinoma antigen NY-REN-64,200,ambiguous,0.26666666666666666,0.25,0.016666666666666663,,,,,,,,,,
+D0311,Hypoxia-inducible factor 1 alpha,200,exact,1.0,0.0,1.0,CHEMBL4261,Q16665,Activation,Classification,CHEMBL4261_Q16665_activation_cls_xgb,CHEMBL4261_Q16665_activation_cls_xgb.pkl,xgb,AUC_Score,1.0,Q16665
+D0311,Hypoxia-inducible factor 1 alpha,200,exact,1.0,0.0,1.0,CHEMBL4261,Q16665,Inhibition,Classification,CHEMBL4261_Q16665_inhibition_cls_rf,CHEMBL4261_Q16665_inhibition_cls_rf.pkl,rf,AUC_Score,0.948051948051948,Q16665
+D0312,Choline kinase,200,ambiguous,0.8,0.8,0.0,,,,,,,,,,
+D0313,Stress-activated protein kinase 2b,200,ambiguous,0.4,0.4,0.0,,,,,,,,,,
+D0314,C-C chemokine receptor type 5,200,exact,1.0,0.0,1.0,CHEMBL274,P51681,Inhibition,Classification,CHEMBL274_P51681_inhibition_cls_xgb,CHEMBL274_P51681_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9073447753659768,P51681
+D0314,C-C chemokine receptor type 5,200,exact,1.0,0.0,1.0,CHEMBL274,P51681,Inhibition,Regression,CHEMBL274_P51681_inhibition_reg_rf,CHEMBL274_P51681_inhibition_reg_rf.pkl,rf,R�_Score,0.7980332196041562,P51681
+D0315,Tyrosine-protein kinase Mer,200,exact,1.0,0.0,1.0,CHEMBL5331,Q12866,Activation,Classification,CHEMBL5331_Q12866_activation_cls_xgb,CHEMBL5331_Q12866_activation_cls_xgb.pkl,xgb,AUC_Score,0.8928571428571429,Q12866
+D0315,Tyrosine-protein kinase Mer,200,exact,1.0,0.0,1.0,CHEMBL5331,Q12866,Inhibition,Classification,CHEMBL5331_Q12866_inhibition_cls_rf,CHEMBL5331_Q12866_inhibition_cls_rf.pkl,rf,AUC_Score,0.8643270904226303,Q12866
+D0316,Intestinal maltase-glucoamylase,200,token_overlap,0.8,0.3333333333333333,0.46666666666666673,CHEMBL2074,O43451,Inhibition,Classification,CHEMBL2074_O43451_inhibition_cls_rf,CHEMBL2074_O43451_inhibition_cls_rf.pkl,rf,AUC_Score,0.9317129629629628,O43451
+D0317,Endothelin B receptor,200,token_overlap,1.0,0.5,0.5,CHEMBL1785,P24530,Inhibition,Classification,CHEMBL1785_P24530_inhibition_cls_xgb,CHEMBL1785_P24530_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9570093457943925,P24530
+D0317,Endothelin B receptor,200,token_overlap,1.0,0.5,0.5,CHEMBL1785,P24530,Inhibition,Regression,CHEMBL1785_P24530_inhibition_reg_rf,CHEMBL1785_P24530_inhibition_reg_rf.pkl,rf,R�_Score,0.7738223882580034,P24530
+D0318,Apoptosis regulator Bcl-xL,200,token_overlap,0.75,0.5714285714285714,0.1785714285714286,CHEMBL4860,P10415,Inhibition,Classification,CHEMBL4860_P10415_inhibition_cls_xgb,CHEMBL4860_P10415_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9555290847726822,P10415
+D0318,Apoptosis regulator Bcl-xL,200,token_overlap,0.75,0.5714285714285714,0.1785714285714286,CHEMBL4860,P10415,Inhibition,Regression,CHEMBL4860_P10415_inhibition_reg_rf,CHEMBL4860_P10415_inhibition_reg_rf.pkl,rf,R�_Score,0.8090299348711059,P10415
+D0319,Coagulation factor IIa,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0320,Ephrin type-A receptor 2,200,exact,1.0,0.0,1.0,CHEMBL2068,P29317,Inhibition,Classification,CHEMBL2068_P29317_inhibition_cls_rf,CHEMBL2068_P29317_inhibition_cls_rf.pkl,rf,AUC_Score,0.9102564102564102,P29317
+D0321,Caspase-3,200,exact,1.0,0.0,1.0,CHEMBL2334,P42574,Activation,Classification,CHEMBL2334_P42574_activation_cls_rf,CHEMBL2334_P42574_activation_cls_rf.pkl,rf,AUC_Score,0.8787878787878788,P42574
+D0321,Caspase-3,200,exact,1.0,0.0,1.0,CHEMBL2334,P42574,Inhibition,Classification,CHEMBL2334_P42574_inhibition_cls_xgb,CHEMBL2334_P42574_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8695823483057525,P42574
+D0322,PI3-kinase gamma,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0323,Cyclin-dependent kinase 7,200,exact,1.0,0.0,1.0,CHEMBL3055,P50613,Activation,Classification,CHEMBL3055_P50613_activation_cls_xgb,CHEMBL3055_P50613_activation_cls_xgb.pkl,xgb,AUC_Score,0.9791666666666666,P50613
+D0323,Cyclin-dependent kinase 7,200,exact,1.0,0.0,1.0,CHEMBL3055,P50613,Inhibition,Classification,CHEMBL3055_P50613_inhibition_cls_rf,CHEMBL3055_P50613_inhibition_cls_rf.pkl,rf,AUC_Score,0.8976982097186701,P50613
+D0324,C-X-C chemokine receptor type 4,200,exact,1.0,0.0,1.0,CHEMBL2107,P61073,Activation,Classification,CHEMBL2107_P61073_activation_cls_rf,CHEMBL2107_P61073_activation_cls_rf.pkl,rf,AUC_Score,1.0,P61073
+D0324,C-X-C chemokine receptor type 4,200,exact,1.0,0.0,1.0,CHEMBL2107,P61073,Inhibition,Classification,CHEMBL2107_P61073_inhibition_cls_xgb,CHEMBL2107_P61073_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8224206349206349,P61073
+D0325,Transient receptor potential cation channel V3,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0326,B1 bradykinin receptor,200,exact,1.0,0.0,1.0,CHEMBL4308,P46663,Inhibition,Classification,CHEMBL4308_P46663_inhibition_cls_rf,CHEMBL4308_P46663_inhibition_cls_rf.pkl,rf,AUC_Score,0.8287671232876712,P46663
+D0327,Voltage-gated sodium channel alpha Nav1.6,200,ambiguous,0.5714285714285714,0.5454545454545454,0.025974025974025983,,,,,,,,,,
+D0328,Beta-glucuronidase,200,exact,1.0,0.0,1.0,CHEMBL2728,P08236,Inhibition,Classification,CHEMBL2728_P08236_inhibition_cls_rf,CHEMBL2728_P08236_inhibition_cls_rf.pkl,rf,AUC_Score,0.8907103825136612,P08236
+D0329,Extracellular signal-regulated kinase 2,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0330,Acyl-CoA desaturase,200,token_overlap,0.8571428571428571,0.75,0.1071428571428571,CHEMBL6097,O95864,,,,,,,,
+D0331,Thyroid hormone receptor beta,200,exact,1.0,0.0,1.0,CHEMBL1947,P10828,Inhibition,Classification,CHEMBL1947_P10828_inhibition_cls_rf,CHEMBL1947_P10828_inhibition_cls_rf.pkl,rf,AUC_Score,0.9825757575757575,P10828
+D0332,Serine/threonine-protein kinase B-raf,200,exact,1.0,0.0,1.0,CHEMBL5145,P15056,Activation,Classification,CHEMBL5145_P15056_activation_cls_rf,CHEMBL5145_P15056_activation_cls_rf.pkl,rf,AUC_Score,1.0,P15056
+D0332,Serine/threonine-protein kinase B-raf,200,exact,1.0,0.0,1.0,CHEMBL5145,P15056,Inhibition,Classification,CHEMBL5145_P15056_inhibition_cls_xgb,CHEMBL5145_P15056_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9024193548387096,P15056
+D0333,Trace amine-associated receptor-1,200,exact,1.0,0.0,1.0,CHEMBL5857,Q96RJ0,Activation,Classification,CHEMBL5857_Q96RJ0_activation_cls_rf,CHEMBL5857_Q96RJ0_activation_cls_rf.pkl,rf,AUC_Score,0.8936063936063935,Q96RJ0
+D0334,PI3-kinase beta,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0335,Prostaglandin D2 receptor 2,200,exact,1.0,0.0,1.0,CHEMBL5071,Q9Y5Y4,Inhibition,Classification,CHEMBL5071_Q9Y5Y4_inhibition_cls_rf,CHEMBL5071_Q9Y5Y4_inhibition_cls_rf.pkl,rf,AUC_Score,0.8848837209302325,Q9Y5Y4
+D0336,Checkpoint kinase-1,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0337,Histone deacetylase 3,200,exact,1.0,0.0,1.0,CHEMBL1829,O15379,Inhibition,Classification,CHEMBL1829_O15379_inhibition_cls_xgb,CHEMBL1829_O15379_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8760330578512397,O15379
+D0338,P2X purinoceptor 7,200,exact,1.0,0.0,1.0,CHEMBL4805,Q99572,,,,,,,,
+D0339,Histone deacetylase 4,200,exact,1.0,0.0,1.0,CHEMBL3524,P56524,Inhibition,Classification,CHEMBL3524_P56524_inhibition_cls_xgb,CHEMBL3524_P56524_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8524500109865963,P56524
+D0340,Androgen receptor,200,exact,1.0,0.0,1.0,CHEMBL1871,P10275,Activation,Classification,CHEMBL1871_P10275_activation_cls_xgb,CHEMBL1871_P10275_activation_cls_xgb.pkl,xgb,AUC_Score,0.8999999999999999,P10275
+D0340,Androgen receptor,200,exact,1.0,0.0,1.0,CHEMBL1871,P10275,Inhibition,Classification,CHEMBL1871_P10275_inhibition_cls_xgb,CHEMBL1871_P10275_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9262397991211552,P10275
+D0341,Chymase,200,exact,1.0,0.0,1.0,CHEMBL4068,P23946,Inhibition,Classification,CHEMBL4068_P23946_inhibition_cls_xgb,CHEMBL4068_P23946_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8571815718157182,P23946
+D0342,Carbonic anhydrase IX,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0343,Matrix metalloproteinase-14,200,exact,1.0,0.0,1.0,CHEMBL3869,P50281,Inhibition,Classification,CHEMBL3869_P50281_inhibition_cls_rf,CHEMBL3869_P50281_inhibition_cls_rf.pkl,rf,AUC_Score,0.8981034482758621,P50281
+D0344,Multidrug resistance-associated protein 1,200,exact,1.0,0.0,1.0,CHEMBL3004,P33527,Activation,Classification,CHEMBL3004_P33527_activation_cls_rf,CHEMBL3004_P33527_activation_cls_rf.pkl,rf,AUC_Score,0.976851851851852,P33527
+D0344,Multidrug resistance-associated protein 1,200,exact,1.0,0.0,1.0,CHEMBL3004,P33527,Inhibition,Classification,CHEMBL3004_P33527_inhibition_cls_rf,CHEMBL3004_P33527_inhibition_cls_rf.pkl,rf,AUC_Score,1.0,P33527
+D0344,Multidrug resistance-associated protein 1,200,exact,1.0,0.0,1.0,CHEMBL3004,P33527,Activation,Regression,CHEMBL3004_P33527_activation_reg_xgb,CHEMBL3004_P33527_activation_reg_xgb.pkl,xgb,R�_Score,0.7950449150895664,P33527
+D0344,Multidrug resistance-associated protein 1,200,exact,1.0,0.0,1.0,CHEMBL3004,P33527,Inhibition,Regression,CHEMBL3004_P33527_inhibition_reg_rf,CHEMBL3004_P33527_inhibition_reg_rf.pkl,rf,R�_Score,0.758582659194652,P33527
+D0345,Corticosteroid 11-beta-dehydrogenase 1,200,token_overlap,0.8,0.6,0.20000000000000007,CHEMBL4235,P28845,Inhibition,Classification,CHEMBL4235_P28845_inhibition_cls_rf,CHEMBL4235_P28845_inhibition_cls_rf.pkl,rf,AUC_Score,0.9582883854728516,P28845
+D0346,Stress-activated protein kinase 2a,200,ambiguous,0.5,0.4,0.09999999999999998,,,,,,,,,,
+D0347,Pyruvate kinase M2,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0348,Adrenergic receptor alpha-2A,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL1867,P08913,Activation,Classification,CHEMBL1867_P08913_activation_cls_rf,CHEMBL1867_P08913_activation_cls_rf.pkl,rf,AUC_Score,0.8333333333333333,P08913
+D0348,Adrenergic receptor alpha-2A,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL1867,P08913,Inhibition,Classification,CHEMBL1867_P08913_inhibition_cls_rf,CHEMBL1867_P08913_inhibition_cls_rf.pkl,rf,AUC_Score,0.9113082039911308,P08913
+D0348,Adrenergic receptor alpha-2A,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL1867,P08913,Inhibition,Regression,CHEMBL1867_P08913_inhibition_reg_xgb,CHEMBL1867_P08913_inhibition_reg_xgb.pkl,xgb,R�_Score,0.722849619383037,P08913
+D0349,Dipeptidyl peptidase 9,200,exact,1.0,0.0,1.0,CHEMBL4793,Q86TI2,Inhibition,Classification,CHEMBL4793_Q86TI2_inhibition_cls_xgb,CHEMBL4793_Q86TI2_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9337755545889516,Q86TI2
+D0349,Dipeptidyl peptidase 9,200,exact,1.0,0.0,1.0,CHEMBL4793,Q86TI2,Inhibition,Regression,CHEMBL4793_Q86TI2_inhibition_reg_xgb,CHEMBL4793_Q86TI2_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7175106079128901,Q86TI2
+D0350,Complement factor D,200,exact,1.0,0.0,1.0,CHEMBL2176771,P00746,Inhibition,Classification,CHEMBL2176771_P00746_inhibition_cls_rf,CHEMBL2176771_P00746_inhibition_cls_rf.pkl,rf,AUC_Score,0.8605360018403497,P00746
+D0351,Cathepsin D,200,exact,1.0,0.0,1.0,CHEMBL2581,P07339,Inhibition,Classification,CHEMBL2581_P07339_inhibition_cls_rf,CHEMBL2581_P07339_inhibition_cls_rf.pkl,rf,AUC_Score,0.9054582421019706,P07339
+D0352,Aminopeptidase N,200,exact,1.0,0.0,1.0,CHEMBL1907,P15144,Inhibition,Classification,CHEMBL1907_P15144_inhibition_cls_rf,CHEMBL1907_P15144_inhibition_cls_rf.pkl,rf,AUC_Score,0.880764163372859,P15144
+D0353,Integrin alpha-V/beta-3,200,ambiguous,0.75,0.75,0.0,,,,,,,,,,
+D0354,RAC-alpha serine/threonine-protein kinase,200,exact,1.0,0.0,1.0,CHEMBL4282,P31749,Inhibition,Classification,CHEMBL4282_P31749_inhibition_cls_xgb,CHEMBL4282_P31749_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8805407801418439,P31749
+D0355,Cathepsin S,200,exact,1.0,0.0,1.0,CHEMBL2954,P25774,Inhibition,Classification,CHEMBL2954_P25774_inhibition_cls_rf,CHEMBL2954_P25774_inhibition_cls_rf.pkl,rf,AUC_Score,0.8802139037433155,P25774
+D0356,Gonadotropin-releasing hormone receptor,200,exact,1.0,0.0,1.0,CHEMBL1855,P30968,Inhibition,Classification,CHEMBL1855_P30968_inhibition_cls_rf,CHEMBL1855_P30968_inhibition_cls_rf.pkl,rf,AUC_Score,0.8888888888888888,P30968
+D0357,Glycine transporter GlyT-1,200,ambiguous,0.5714285714285714,0.5714285714285714,0.0,,,,,,,,,,
+D0358,Adrenergic receptor alpha-2C,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL1916,P18825,Activation,Classification,CHEMBL1916_P18825_activation_cls_rf,CHEMBL1916_P18825_activation_cls_rf.pkl,rf,AUC_Score,0.980952380952381,P18825
+D0358,Adrenergic receptor alpha-2C,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL1916,P18825,Inhibition,Classification,CHEMBL1916_P18825_inhibition_cls_rf,CHEMBL1916_P18825_inhibition_cls_rf.pkl,rf,AUC_Score,0.8449612403100775,P18825
+D0359,LCK tyrosine protein kinase,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL258,P06239,Inhibition,Classification,CHEMBL258_P06239_inhibition_cls_rf,CHEMBL258_P06239_inhibition_cls_rf.pkl,rf,AUC_Score,0.8670194892473119,P06239
+D0360,Cyclin-dependent kinase 2,200,exact,1.0,0.0,1.0,CHEMBL301,P24941,Inhibition,Classification,CHEMBL301_P24941_inhibition_cls_xgb,CHEMBL301_P24941_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8816445182724253,P24941
+D0361,Glycogen synthase kinase-3 beta,200,exact,1.0,0.0,1.0,CHEMBL262,P49841,Activation,Classification,CHEMBL262_P49841_activation_cls_xgb,CHEMBL262_P49841_activation_cls_xgb.pkl,xgb,AUC_Score,0.9093851132686084,P49841
+D0361,Glycogen synthase kinase-3 beta,200,exact,1.0,0.0,1.0,CHEMBL262,P49841,Inhibition,Classification,CHEMBL262_P49841_inhibition_cls_xgb,CHEMBL262_P49841_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9173291335433228,P49841
+D0362,Protein kinase C alpha,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL299,P17252,Inhibition,Classification,CHEMBL299_P17252_inhibition_cls_xgb,CHEMBL299_P17252_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8989656177156178,P17252
+D0363,Nitric-oxide synthase endothelial,200,ambiguous,0.75,0.75,0.0,,,,,,,,,,
+D0364,Caspase-7,200,exact,1.0,0.0,1.0,CHEMBL3468,P55210,Inhibition,Classification,CHEMBL3468_P55210_inhibition_cls_rf,CHEMBL3468_P55210_inhibition_cls_rf.pkl,rf,AUC_Score,0.8880918220946915,P55210
+D0365,Bacterial Lethal factor,200,ambiguous,0.4,0.34,0.06,,,,,,,,,,
+D0366,Tissue factor,200,exact,1.0,0.0,1.0,CHEMBL4081,P13726,Inhibition,Classification,CHEMBL4081_P13726_inhibition_cls_rf,CHEMBL4081_P13726_inhibition_cls_rf.pkl,rf,AUC_Score,0.8385093167701864,P13726
+D0366,Tissue factor,200,exact,1.0,0.0,1.0,CHEMBL4081,P13726,Inhibition,Regression,CHEMBL4081_P13726_inhibition_reg_rf,CHEMBL4081_P13726_inhibition_reg_rf.pkl,rf,R�_Score,0.790899843982524,P13726
+D0367,E-selectin,200,exact,1.0,0.0,1.0,CHEMBL3890,P16581,Inhibition,Classification,CHEMBL3890_P16581_inhibition_cls_xgb,CHEMBL3890_P16581_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8961937716262975,P16581
+D0367,E-selectin,200,exact,1.0,0.0,1.0,CHEMBL3890,P16581,Inhibition,Regression,CHEMBL3890_P16581_inhibition_reg_rf,CHEMBL3890_P16581_inhibition_reg_rf.pkl,rf,R�_Score,0.7985419170364203,P16581
+D0368,Orexin receptor type 1,200,token_overlap,0.8,0.5,0.30000000000000004,CHEMBL5113,O43613,Inhibition,Classification,CHEMBL5113_O43613_inhibition_cls_xgb,CHEMBL5113_O43613_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.974107142857143,O43613
+D0368,Orexin receptor type 1,200,token_overlap,0.8,0.5,0.30000000000000004,CHEMBL5113,O43613,Inhibition,Regression,CHEMBL5113_O43613_inhibition_reg_rf,CHEMBL5113_O43613_inhibition_reg_rf.pkl,rf,R�_Score,0.7011170798884658,O43613
+D0369,Rho-associated protein kinase 2,200,exact,1.0,0.0,1.0,CHEMBL2973,O75116,Inhibition,Classification,CHEMBL2973_O75116_inhibition_cls_rf,CHEMBL2973_O75116_inhibition_cls_rf.pkl,rf,AUC_Score,0.8077777777777777,O75116
+D0370,Dual specificity protein kinase TTK,200,exact,1.0,0.0,1.0,CHEMBL3983,P33981,Inhibition,Classification,CHEMBL3983_P33981_inhibition_cls_rf,CHEMBL3983_P33981_inhibition_cls_rf.pkl,rf,AUC_Score,0.8965034965034966,P33981
+D0371,Methionine aminopeptidase 2,200,exact,1.0,0.0,1.0,CHEMBL3922,P50579,Inhibition,Classification,CHEMBL3922_P50579_inhibition_cls_rf,CHEMBL3922_P50579_inhibition_cls_rf.pkl,rf,AUC_Score,0.8645092460881936,P50579
+D0371,Methionine aminopeptidase 2,200,exact,1.0,0.0,1.0,CHEMBL3922,P50579,Inhibition,Regression,CHEMBL3922_P50579_inhibition_reg_rf,CHEMBL3922_P50579_inhibition_reg_rf.pkl,rf,R�_Score,0.7400415153899899,P50579
+D0372,Farnesyl protein transferase,200,ambiguous,0.5,0.4,0.09999999999999998,,,,,,,,,,
+D0373,Pattern recognition receptor NOD2,200,ambiguous,0.2857142857142857,0.2857142857142857,0.0,,,,,,,,,,
+D0374,Geranylgeranyl transferase I,200,ambiguous,0.5714285714285714,0.5714285714285714,0.0,,,,,,,,,,
+D0375,Carbonic anhydrase I,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0376,Proteasome beta-8,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL5620,P28062,Inhibition,Classification,CHEMBL5620_P28062_inhibition_cls_xgb,CHEMBL5620_P28062_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8686170212765958,P28062
+D0377,Phosphodiesterase 2A,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0378,Thromboxane-A synthase,200,exact,1.0,0.0,1.0,CHEMBL1835,P24557,Inhibition,Classification,CHEMBL1835_P24557_inhibition_cls_rf,CHEMBL1835_P24557_inhibition_cls_rf.pkl,rf,AUC_Score,0.8782051282051282,P24557
+D0379,Inhibitor of nuclear factor kappa-B kinase beta,200,token_overlap,1.0,0.875,0.125,CHEMBL1991,O14920,Inhibition,Classification,CHEMBL1991_O14920_inhibition_cls_rf,CHEMBL1991_O14920_inhibition_cls_rf.pkl,rf,AUC_Score,0.8866577420794288,O14920
+D0380,TYK2 tyrosine kinase,200,token_overlap,0.8571428571428571,0.6666666666666666,0.19047619047619047,CHEMBL3553,P29597,Inhibition,Classification,CHEMBL3553_P29597_inhibition_cls_xgb,CHEMBL3553_P29597_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8,P29597
+D0381,Beta-secretase 1,200,exact,1.0,0.0,1.0,CHEMBL4822,P56817,Activation,Classification,CHEMBL4822_P56817_activation_cls_xgb,CHEMBL4822_P56817_activation_cls_xgb.pkl,xgb,AUC_Score,0.8088235294117648,P56817
+D0381,Beta-secretase 1,200,exact,1.0,0.0,1.0,CHEMBL4822,P56817,Inhibition,Classification,CHEMBL4822_P56817_inhibition_cls_xgb,CHEMBL4822_P56817_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8991144551182548,P56817
+D0381,Beta-secretase 1,200,exact,1.0,0.0,1.0,CHEMBL4822,P56817,Activation,Regression,CHEMBL4822_P56817_activation_reg_xgb,CHEMBL4822_P56817_activation_reg_xgb.pkl,xgb,R�_Score,0.7069384710858428,P56817
+D0382,5-HT 7 receptor,200,token_overlap,0.6666666666666666,0.4444444444444444,0.2222222222222222,CHEMBL3155,P34969,Inhibition,Classification,CHEMBL3155_P34969_inhibition_cls_xgb,CHEMBL3155_P34969_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8992673992673993,P34969
+D0383,Aromatase,200,exact,1.0,0.0,1.0,CHEMBL1978,P11511,Inhibition,Classification,CHEMBL1978_P11511_inhibition_cls_rf,CHEMBL1978_P11511_inhibition_cls_rf.pkl,rf,AUC_Score,0.8323725055432372,P11511
+D0384,DNA-dependent protein kinase catalytic,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL3142,P78527,Inhibition,Classification,CHEMBL3142_P78527_inhibition_cls_xgb,CHEMBL3142_P78527_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9254032258064516,P78527
+D0384,DNA-dependent protein kinase catalytic,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL3142,P78527,Inhibition,Regression,CHEMBL3142_P78527_inhibition_reg_xgb,CHEMBL3142_P78527_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7398778297058582,P78527
+D0385,Phosphodiesterase 4D,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0386,TNF alpha converting enzyme,200,ambiguous,0.5714285714285714,0.5,0.0714285714285714,,,,,,,,,,
+D0387,Retinoic acid receptor RXR-alpha,200,exact,1.0,0.0,1.0,CHEMBL2061,P19793,Activation,Classification,CHEMBL2061_P19793_activation_cls_xgb,CHEMBL2061_P19793_activation_cls_xgb.pkl,xgb,AUC_Score,0.8632019115890084,P19793
+D0387,Retinoic acid receptor RXR-alpha,200,exact,1.0,0.0,1.0,CHEMBL2061,P19793,Inhibition,Classification,CHEMBL2061_P19793_inhibition_cls_xgb,CHEMBL2061_P19793_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.989106753812636,P19793
+D0387,Retinoic acid receptor RXR-alpha,200,exact,1.0,0.0,1.0,CHEMBL2061,P19793,Inhibition,Regression,CHEMBL2061_P19793_inhibition_reg_rf,CHEMBL2061_P19793_inhibition_reg_rf.pkl,rf,R�_Score,0.8467582624977334,P19793
+D0388,Cysteines of Keap1,200,ambiguous,0.2857142857142857,0.2857142857142857,0.0,,,,,,,,,,
+D0389,Phosphodiesterase 10A,200,ambiguous,0.5,0.4,0.09999999999999998,,,,,,,,,,
+D0390,Sphingosine-1-phosphate receptor 1,200,exact,1.0,0.0,1.0,CHEMBL4333,P21453,Activation,Classification,CHEMBL4333_P21453_activation_cls_rf,CHEMBL4333_P21453_activation_cls_rf.pkl,rf,AUC_Score,1.0,P21453
+D0390,Sphingosine-1-phosphate receptor 1,200,exact,1.0,0.0,1.0,CHEMBL4333,P21453,Inhibition,Classification,CHEMBL4333_P21453_inhibition_cls_xgb,CHEMBL4333_P21453_inhibition_cls_xgb.pkl,xgb,AUC_Score,1.0,P21453
+D0390,Sphingosine-1-phosphate receptor 1,200,exact,1.0,0.0,1.0,CHEMBL4333,P21453,Inhibition,Regression,CHEMBL4333_P21453_inhibition_reg_xgb,CHEMBL4333_P21453_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7673275203486978,P21453
+D0391,Tubulin beta-1 chain,200,exact,1.0,0.0,1.0,CHEMBL1915,Q9H4B7,,,,,,,,
+D0392,Sphingosine kinase 1,200,exact,1.0,0.0,1.0,CHEMBL4394,Q9NYA1,,,,,,,,
+D0393,Telomerase reverse transcriptase,200,exact,1.0,0.0,1.0,CHEMBL2916,O14746,Activation,Classification,CHEMBL2916_O14746_activation_cls_rf,CHEMBL2916_O14746_activation_cls_rf.pkl,rf,AUC_Score,0.9326923076923076,O14746
+D0393,Telomerase reverse transcriptase,200,exact,1.0,0.0,1.0,CHEMBL2916,O14746,Inhibition,Classification,CHEMBL2916_O14746_inhibition_cls_xgb,CHEMBL2916_O14746_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8763056624518966,O14746
+D0394,Prolyl endopeptidase,200,exact,1.0,0.0,1.0,CHEMBL3202,P48147,Inhibition,Classification,CHEMBL3202_P48147_inhibition_cls_xgb,CHEMBL3202_P48147_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8992946708463949,P48147
+D0395,Solute carrier family 40 member 1,200,ambiguous,0.75,0.75,0.0,,,,,,,,,,
+D0396,G-protein coupled bile acid receptor 1,200,exact,1.0,0.0,1.0,CHEMBL5409,Q8TDU6,Activation,Classification,CHEMBL5409_Q8TDU6_activation_cls_rf,CHEMBL5409_Q8TDU6_activation_cls_rf.pkl,rf,AUC_Score,0.8844072382885169,Q8TDU6
+D0397,Serine/threonine-protein kinase pim-2,200,exact,1.0,0.0,1.0,CHEMBL4523,Q9P1W9,Inhibition,Classification,CHEMBL4523_Q9P1W9_inhibition_cls_xgb,CHEMBL4523_Q9P1W9_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9291491038689558,Q9P1W9
+D0398,Cathepsin G,200,exact,1.0,0.0,1.0,CHEMBL4071,P08311,Inhibition,Classification,CHEMBL4071_P08311_inhibition_cls_rf,CHEMBL4071_P08311_inhibition_cls_rf.pkl,rf,AUC_Score,0.9308755760368664,P08311
+D0398,Cathepsin G,200,exact,1.0,0.0,1.0,CHEMBL4071,P08311,Inhibition,Regression,CHEMBL4071_P08311_inhibition_reg_xgb,CHEMBL4071_P08311_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7354058713742145,P08311
+D0399,Bromodomain-containing protein 2,200,exact,1.0,0.0,1.0,CHEMBL1293289,P25440,Activation,Classification,CHEMBL1293289_P25440_activation_cls_rf,CHEMBL1293289_P25440_activation_cls_rf.pkl,rf,AUC_Score,0.8666666666666667,P25440
+D0399,Bromodomain-containing protein 2,200,exact,1.0,0.0,1.0,CHEMBL1293289,P25440,Inhibition,Classification,CHEMBL1293289_P25440_inhibition_cls_rf,CHEMBL1293289_P25440_inhibition_cls_rf.pkl,rf,AUC_Score,0.8908780903665814,P25440
+D0400,Glutaminase,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0401,Aurora kinase A,200,exact,1.0,0.0,1.0,CHEMBL4722,O14965,Inhibition,Classification,CHEMBL4722_O14965_inhibition_cls_xgb,CHEMBL4722_O14965_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9021476319158016,O14965
+D0402,N-formyl peptide receptor,200,ambiguous,0.8571428571428571,0.8571428571428571,0.0,,,,,,,,,,
+D0403,DNA [cytosine-5]-methyltransferase 1,200,exact,1.0,0.0,1.0,CHEMBL1993,P26358,Inhibition,Classification,CHEMBL1993_P26358_inhibition_cls_rf,CHEMBL1993_P26358_inhibition_cls_rf.pkl,rf,AUC_Score,0.8228228228228227,P26358
+D0404,Erbb2 tyrosine kinase receptor,200,ambiguous,0.6666666666666666,0.6666666666666666,0.0,,,,,,,,,,
+D0405,Oxalosuccinate decarboxylase,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0406,Neuropeptide Y receptor type 1,200,exact,1.0,0.0,1.0,CHEMBL4777,P25929,Inhibition,Classification,CHEMBL4777_P25929_inhibition_cls_xgb,CHEMBL4777_P25929_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9583333333333334,P25929
+D0407,C-C chemokine receptor type 2,200,exact,1.0,0.0,1.0,CHEMBL4015,P41597,Inhibition,Classification,CHEMBL4015_P41597_inhibition_cls_rf,CHEMBL4015_P41597_inhibition_cls_rf.pkl,rf,AUC_Score,0.9371980676328502,P41597
+D0408,Programmed cell death 1 ligand 1,200,exact,1.0,0.0,1.0,CHEMBL3580522,Q9NZQ7,Activation,Classification,CHEMBL3580522_Q9NZQ7_activation_cls_xgb,CHEMBL3580522_Q9NZQ7_activation_cls_xgb.pkl,xgb,AUC_Score,1.0,Q9NZQ7
+D0408,Programmed cell death 1 ligand 1,200,exact,1.0,0.0,1.0,CHEMBL3580522,Q9NZQ7,Inhibition,Classification,CHEMBL3580522_Q9NZQ7_inhibition_cls_rf,CHEMBL3580522_Q9NZQ7_inhibition_cls_rf.pkl,rf,AUC_Score,0.8921549155908639,Q9NZQ7
+D0409,Adenosine kinase,200,exact,1.0,0.0,1.0,CHEMBL3589,P55263,Inhibition,Classification,CHEMBL3589_P55263_inhibition_cls_xgb,CHEMBL3589_P55263_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.8776859504132232,P55263
+D0410,T-cell-specific kinase,200,ambiguous,0.6,0.51,0.08999999999999997,,,,,,,,,,
+D0411,Angiopoietin 1 receptor,200,exact,1.0,0.0,1.0,CHEMBL4128,Q02763,Inhibition,Classification,CHEMBL4128_Q02763_inhibition_cls_rf,CHEMBL4128_Q02763_inhibition_cls_rf.pkl,rf,AUC_Score,0.8627481150946299,Q02763
+D0412,Lysophosphatidic acid receptor 1,200,exact,1.0,0.0,1.0,CHEMBL3819,Q92633,Inhibition,Classification,CHEMBL3819_Q92633_inhibition_cls_rf,CHEMBL3819_Q92633_inhibition_cls_rf.pkl,rf,AUC_Score,0.9395833333333332,Q92633
+D0413,MALT lymphoma-associated translocation,200,ambiguous,0.5454545454545454,0.3333333333333333,0.2121212121212121,,,,,,,,,,
+D0414,Presenilin 1,200,exact,1.0,0.0,1.0,CHEMBL2473,P49768,Inhibition,Classification,CHEMBL2473_P49768_inhibition_cls_xgb,CHEMBL2473_P49768_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.93006993006993,P49768
+D0414,Presenilin 1,200,exact,1.0,0.0,1.0,CHEMBL2473,P49768,Inhibition,Regression,CHEMBL2473_P49768_inhibition_reg_xgb,CHEMBL2473_P49768_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7874872554456399,P49768
+D0415,Ribosomal protein S6 kinase beta-1,200,exact,1.0,0.0,1.0,CHEMBL4501,P23443,Inhibition,Classification,CHEMBL4501_P23443_inhibition_cls_xgb,CHEMBL4501_P23443_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9448340345956054,P23443
+D0416,TYRO3 tyrosine kinase receptor,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL5314,Q06418,Inhibition,Classification,CHEMBL5314_Q06418_inhibition_cls_rf,CHEMBL5314_Q06418_inhibition_cls_rf.pkl,rf,AUC_Score,0.910340200831025,Q06418
+D0416,TYRO3 tyrosine kinase receptor,200,token_overlap,1.0,0.6666666666666666,0.33333333333333337,CHEMBL5314,Q06418,Inhibition,Regression,CHEMBL5314_Q06418_inhibition_reg_xgb,CHEMBL5314_Q06418_inhibition_reg_xgb.pkl,xgb,R�_Score,0.818769341717929,Q06418
+D0417,Melanocortin receptor 5,200,exact,1.0,0.0,1.0,CHEMBL4608,P33032,Inhibition,Classification,CHEMBL4608_P33032_inhibition_cls_rf,CHEMBL4608_P33032_inhibition_cls_rf.pkl,rf,AUC_Score,0.9224524076147816,P33032
+D0418,Heat shock protein 90 beta,200,ambiguous,0.8888888888888888,0.8,0.0888888888888888,,,,,,,,,,
+D0419,Fatty acid synthase,200,exact,1.0,0.0,1.0,CHEMBL4158,P49327,Inhibition,Classification,CHEMBL4158_P49327_inhibition_cls_xgb,CHEMBL4158_P49327_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.9216666666666666,P49327
+D0419,Fatty acid synthase,200,exact,1.0,0.0,1.0,CHEMBL4158,P49327,Inhibition,Regression,CHEMBL4158_P49327_inhibition_reg_xgb,CHEMBL4158_P49327_inhibition_reg_xgb.pkl,xgb,R�_Score,0.7449170617628116,P49327
+D0420,Leucine-rich repeat kinase 2,200,token_overlap,0.8333333333333334,0.7272727272727273,0.10606060606060608,CHEMBL1075104,Q5S007,Activation,Classification,CHEMBL1075104_Q5S007_activation_cls_rf,CHEMBL1075104_Q5S007_activation_cls_rf.pkl,rf,AUC_Score,0.8449197860962567,Q5S007
+D0420,Leucine-rich repeat kinase 2,200,token_overlap,0.8333333333333334,0.7272727272727273,0.10606060606060608,CHEMBL1075104,Q5S007,Inhibition,Classification,CHEMBL1075104_Q5S007_inhibition_cls_rf,CHEMBL1075104_Q5S007_inhibition_cls_rf.pkl,rf,AUC_Score,0.921089647411853,Q5S007
+D0421,MAPK signal-integrating kinase 1,200,ambiguous,0.5,0.5,0.0,,,,,,,,,,
+D0422,ATM serine/threonine kinase,200,token_overlap,0.8571428571428571,0.75,0.1071428571428571,CHEMBL3797,Q13315,Inhibition,Classification,CHEMBL3797_Q13315_inhibition_cls_xgb,CHEMBL3797_Q13315_inhibition_cls_xgb.pkl,xgb,AUC_Score,0.927877947295423,Q13315
+D0422,ATM serine/threonine kinase,200,token_overlap,0.8571428571428571,0.75,0.1071428571428571,CHEMBL3797,Q13315,Inhibition,Regression,CHEMBL3797_Q13315_inhibition_reg_rf,CHEMBL3797_Q13315_inhibition_reg_rf.pkl,rf,R�_Score,0.7524491194817823,Q13315
