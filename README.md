@@ -4,7 +4,7 @@
 
 ## What it does
 
-- Upload a CSV (like `activity_CHEMBL202_ERG.csv`).
+- Upload a CSV (like `activity_CHEMBL202_DHFR.csv`).
 - Keeps `pchembl_value` (if present) and only feature columns starting with `fr_` or `ERG...`.
 - Drops zero-variance feature columns.
 - Creates `class` where `pchembl_value >= 6.5` → 1 else 0.
