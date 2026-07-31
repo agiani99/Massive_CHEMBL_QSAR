@@ -29,7 +29,7 @@ Then upload a CSV.
 
 This folder also contains a CLI training pipeline:
 
-- `erg_eda_enhanced_general_CHEMBL36.py`
+- `erg_eda_enhanced_general_CHEMBL36_MCC.py`
 
 It loops over ChEMBL targets, fetches activity rows, computes ErG + fragment/topological descriptors from SMILES, and trains per-target models.
 
@@ -112,7 +112,7 @@ Saved `.pkl` payload includes the fitted model, fitted `StandardScaler`, and ord
 
 The Streamlit heatmap app uses the packages in `requirements.txt`.
 
-The training script (`erg_eda_enhanced_general_CHEMBL36.py`) additionally requires a scientific/cheminformatics stack that is not listed in `requirements.txt`:
+The training script (`erg_eda_enhanced_general_CHEMBL36_MCC.py`) additionally requires a scientific/cheminformatics stack that is not listed in `requirements.txt`:
 
 - required: `rdkit`, `scikit-learn`
 - optional: `requests` (required for API mode), `optuna` (hyperparameter tuning), `xgboost` (XGB models), `imbalanced-learn` (SMOTE)
@@ -124,25 +124,25 @@ If you use Conda, installing RDKit via `conda-forge` is usually the easiest.
 SQLite mode:
 
 ```powershell
-python erg_eda_enhanced_general_CHEMBL36.py --chembl-source sqlite --chembl-sqlite C:/path/to/chembl_36.db
+python erg_eda_enhanced_general_CHEMBL36_MCC.py --chembl-source sqlite --chembl-sqlite C:/path/to/chembl_36.db
 ```
 
 API mode (no local DB):
 
 ```powershell
-python erg_eda_enhanced_general_CHEMBL36.py --chembl-source api --targets-csv my_targets.csv
+python erg_eda_enhanced_general_CHEMBL36_MCC.py --chembl-source api --targets-csv my_targets.csv
 ```
 
 Export descriptors only (no training):
 
 ```powershell
-python erg_eda_enhanced_general_CHEMBL36.py --download-only --export-descriptor-datasets --chembl-source sqlite --chembl-sqlite C:/path/to/chembl_36.db
+python erg_eda_enhanced_general_CHEMBL36_MCC.py --download-only --export-descriptor-datasets --chembl-source sqlite --chembl-sqlite C:/path/to/chembl_36.db
 ```
 
 Multiprocessing (CPU):
 
 ```powershell
-python erg_eda_enhanced_general_CHEMBL36.py --workers 4 --chunk-size 2 --chembl-source sqlite --chembl-sqlite C:/path/to/chembl_36.db
+python erg_eda_enhanced_general_CHEMBL36_MCC.py --workers 4 --chunk-size 2 --chembl-source sqlite --chembl-sqlite C:/path/to/chembl_36.db
 ```
 
 GPU note:
