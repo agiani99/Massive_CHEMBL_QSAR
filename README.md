@@ -65,6 +65,7 @@ Notes:
 ### Targets CSV
 
 Provided via `--targets-csv` (default: `Uniprot_ID_with_only_Chembl.csv`).
+the models either as regression or as classification can be found together with input CSV with smiles and pchembl values [here](https://doi.org/10.5281/zenodo.21758588). 
 
 Required columns (names can vary; the script searches several candidates):
 - one of: `chembl_target_id`, `target_chembl_id`, `target_id`, `chembl_id`
