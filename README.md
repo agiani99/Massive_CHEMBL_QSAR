@@ -25,7 +25,7 @@ Then upload a CSV.
 
 ---
 
-# ChEMBL36 target-loop model builder (ErG + fragments)
+# ChEMBL target-loop model builder (ErG + fragments)
 
 This folder also contains a CLI training pipeline:
 
